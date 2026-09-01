@@ -1,0 +1,288 @@
+[
+  {
+    "id": "S07",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-112da8c5-585f-4e4e-99b3-e142d39a31be.png",
+    "file": "frames/S07.png",
+    "status": "saved"
+  },
+  {
+    "id": "S19",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-2af3cc63-966c-45a1-bc23-d85eeb72d765.png",
+    "file": "frames/S19.png",
+    "status": "saved"
+  },
+  {
+    "id": "S08",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-e34651b8-dec8-402f-9b95-6d802ec11852.png",
+    "file": "frames/S08.png",
+    "status": "saved"
+  },
+  {
+    "id": "S08",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-33f367dc-bf44-45e2-8b99-09fd401c53ec.png",
+    "file": "frames/S08.png",
+    "status": "targeted_revision",
+    "prompt": "仅编辑参考图片：彻底移除画面右侧白桌上的绿色银行家台灯及其影子，让该处恢复原来的空白桌面。保持林澄整张脸、低马尾、眼神、表情、灰蓝针织衫、人物位置、景别、窗框、柜子、椅子和白天光线完全不变。不添加任何新物件、不添加其他人物，不改构图。输出同样1672x941横版单张PNG，无文字。"
+  },
+  {
+    "id": "S19",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-4cd4c28c-bbe8-4b9b-8bdf-edbe118db47a.png",
+    "file": "frames/S19.png",
+    "status": "targeted_revision",
+    "prompt": "编辑这张校园聚会首帧，保留前景左侧林澄和右侧周屿的准确脸、发型、服装、坐姿位置和记录本。改四处：1删除背景中央绿色台灯及影子，原位恢复空白桌面；2背景左侧同学换成穿暗橄榄卫衣的普通男同学，右侧同学换成穿米色上衣、齐耳短发的普通女同学，两人脸部强虚焦，绝不能是前景主角的复制；3前景主角把目光自然转向彼此而不看摄影机；4林澄膝上深蓝本最后一页露出一个很小米色纸角。保留三组后窗、左柜、右后木门、原冷白夜间光、白桌与纸杯位置。不要新增道具，无字幕无水印。1672x941单张横版PNG。"
+  },
+  {
+    "id": "S04",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-e7ce7e68-0e3c-4384-82cf-22d95faf323c.png",
+    "file": "frames/S04.png",
+    "status": "saved"
+  },
+  {
+    "id": "S05",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-68b9d8de-d654-4ccf-9187-40ba36f9cb0c.png",
+    "file": "frames/S05.png",
+    "status": "saved"
+  },
+  {
+    "id": "S01",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-d4baf50f-fc60-4070-a945-4bc70a5af0a6.png",
+    "file": "frames/S01.png",
+    "status": "saved"
+  },
+  {
+    "id": "S03",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-cc28881c-60a1-4559-bde7-10b031ef8ed0.png",
+    "file": "frames/S03.png",
+    "status": "saved"
+  },
+  {
+    "id": "S06",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-0aa9d98e-b445-474c-8ac5-426f6aa8c65c.png",
+    "file": "frames/S06.png",
+    "status": "saved"
+  },
+  {
+    "id": "S02",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-0792945b-c7c4-4fa1-abdd-36cb95625682.png",
+    "file": "frames/S02.png",
+    "status": "saved"
+  },
+  {
+    "id": "S11",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-75553baa-d397-4cc9-974a-2c12bace44fa.png",
+    "file": "frames/S11.png",
+    "status": "saved"
+  },
+  {
+    "id": "S12",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-b4d92e70-48ed-4585-ade9-80a6b65ce18e.png",
+    "file": "frames/S12.png",
+    "status": "saved"
+  },
+  {
+    "id": "S13",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-1db8b810-6bc9-4bc0-bcdf-1ddaf4a787e5.png",
+    "file": "frames/S13.png",
+    "status": "saved"
+  },
+  {
+    "id": "S14",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-99c6c172-aaa2-4af0-83cc-9359e8aab877.png",
+    "file": "frames/S14.png",
+    "status": "saved"
+  },
+  {
+    "id": "S10",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-5f6aea2c-9213-4ddf-b063-1fbb7dd67f63.png",
+    "file": "frames/S10.png",
+    "status": "saved"
+  },
+  {
+    "id": "S09",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-1a824082-b5d9-40d9-b15a-0ebb412f6daf.png",
+    "file": "frames/S09.png",
+    "status": "saved"
+  },
+  {
+    "id": "S05",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-49274e91-e3e0-4fe5-a85d-eda06afb4960.png",
+    "file": "frames/S05.png",
+    "status": "composition_revision",
+    "prompt": "重新设计S05的紧裁切主观镜头，单张1672x941横版写实电影图。参考图只提供夜晚建筑和奶油色窗帘的材质，不照搬参考构图。摄像机紧贴窗边，从窄小帘缝朝庭院对面的实验楼窗口望去，85mm长焦，画面仅由左右两边巨大虚化的奶油窗帘和中央窄缝里的冷白发光实验室窗口组成；中央这个窗口仍亮着，其他窗格暗着。完全不拍房间内部，不拍桌子，不拍椅子，不拍台灯，不拍任何本子或纸或人物。这个镜头的唯一信息是远处那扇还亮着的实验室窗。不要宽角房间建立镜头。无可读文字无水印。"
+  },
+  {
+    "id": "S17",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-ef2f205b-78ce-4346-9354-9128c9e2dab0.png",
+    "file": "frames/S17.png",
+    "status": "saved"
+  },
+  {
+    "id": "S18",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-a409b4f2-5f05-49cd-9c3f-d3d2006114a1.png",
+    "file": "frames/S18.png",
+    "status": "saved"
+  },
+  {
+    "id": "S20",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-e07f7949-ebff-4354-8b4f-003324ce97ad.png",
+    "file": "frames/S20.png",
+    "status": "saved"
+  },
+  {
+    "id": "S21",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-f57757e1-66b3-459f-9b98-d3ac457a2798.png",
+    "file": "frames/S21.png",
+    "status": "saved"
+  },
+  {
+    "id": "S22",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-17c1faa5-6e5a-4f2e-8b21-278c23bf6833.png",
+    "file": "frames/S22.png",
+    "status": "saved"
+  },
+  {
+    "id": "S16",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-0d4a58fa-6c3a-4062-af0b-bbf067b202be.png",
+    "file": "frames/S16.png",
+    "status": "saved"
+  },
+  {
+    "id": "S15",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-cfafcf60-9125-43a5-a762-914d374759ed.png",
+    "file": "frames/S15.png",
+    "status": "saved"
+  },
+  {
+    "id": "S26",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-9b3df1fc-72c0-4b28-9063-f9669e0e483e.png",
+    "file": "frames/S26.png",
+    "status": "saved"
+  },
+  {
+    "id": "S27",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-c4187663-e559-4010-ba34-09626e66e9e0.png",
+    "file": "frames/S27.png",
+    "status": "saved"
+  },
+  {
+    "id": "S28",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-d402b248-aa19-4b53-8e79-13bec4784bdb.png",
+    "file": "frames/S28.png",
+    "status": "saved"
+  },
+  {
+    "id": "S29",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-fdaf89c5-19c4-42e4-b128-3105298f38e0.png",
+    "file": "frames/S29.png",
+    "status": "saved"
+  },
+  {
+    "id": "S15",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-c12ebf00-a878-413e-9a14-ca6f54eec2a5.png",
+    "file": "frames/S15.png",
+    "status": "paper_revision",
+    "prompt": "生成原创校园片S15折信动作发生之前的一张首帧，1672x941横版PNG写实摄影。参考1仅取林澄灰蓝针织袖口和双手肤色，不出现她的头、脸、胸口或肩膀；参考2仅取旧木桌与左侧暖台灯的光。严格俯拍桌面上的两只女性手和一张完整连续的米色长方形便笺，便笺是一张A5大小的薄纸，两个手指分别轻捏同一张纸的左下角和右下角，它的左右两半仍完全连接，四条完整纸边可见，纸张尚未对折、未撕、无缺口、无剪口、没有第二张纸。右手将来会把纸的一半折向另一半，但此静态首帧只展示折纸前完整纸面。旁边只露出深蓝记录本一个边缘。85mm特写浅景深，温暖克制光线，无可读文字、无水印、无拼贴。最重要：一张完整纸，绝不能生成两片分开的纸。"
+  },
+  {
+    "id": "S23",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-07bd3478-d71c-4e22-8003-31cb1863cb1e.png",
+    "file": "frames/S23.png",
+    "status": "saved"
+  },
+  {
+    "id": "S25",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-c5bd1830-d769-4b4d-8921-833a22a60e3e.png",
+    "file": "frames/S25.png",
+    "status": "saved",
+    "prompt": "生成《窗帘后面的灯》S25的单张剧情首帧，1672x941 PNG，16:9横版，写实电影摄影，真实肤质、克制自然光，无文字水印拼贴。参考图1：只用于林澄的脸、发型、服装和体型。参考图2：只用于实验室的窗框、白桌、左柜、右门和闭合灰色仪器；不得添加任何台灯、绿色灯或宿舍物件。场景：夜晚实验记录室的小型送别聚会，白桌上放纸杯，后窗、左柜与右后木门不变，冷白顶灯保持自然。出镜及屏幕位置：林澄（仅图中中央的双手与膝部出镜）。摄影：道具特写，85mm镜头，浅景深，固定机位，这是静止首帧，摄像机尚未运动。首帧可见事实：深蓝记录本在林澄膝上微微打开，米色折纸仍夹在最后一页，左手托本子，右手刚捏住纸角。画面必须停在主要动作发生之前，不提前展示动作结束状态。只出现指定的人物和手，保持参考人物的身份、发型、体型、服装；场景门窗和家具几何稳定。纸面、封面、设备、手机均不需要可读文字，无字幕无标签。只生成一张电影镜头，不要角色多视图或多格图。本镜最高优先级是严格裁切到手、膝盖和记录本，画面上缘在腰部以下，不出现任何人脸、头发、胸口，也完全不包含背景同学；不要因为角色参考图而生成半身人像。"
+  },
+  {
+    "id": "S24",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-8b511dfc-ecfe-4c49-a787-c17b6b8ad6dc.png",
+    "file": "frames/S24.png",
+    "status": "saved",
+    "prompt": "生成《窗帘后面的灯》S24的单张剧情首帧，1672x941 PNG，16:9横版，写实电影摄影，真实肤质、克制自然光，无文字水印拼贴。参考图1：只用于林澄的脸、发型、服装和体型。参考图2：只用于实验室的窗框、白桌、左柜、右门和闭合灰色仪器；不得添加任何台灯、绿色灯或宿舍物件。场景：夜晚实验记录室的小型送别聚会，白桌上放纸杯，后窗、左柜与右后木门不变，冷白顶灯保持自然。出镜及屏幕位置：林澄（仅图中中央的双手与膝部出镜）。摄影：手部特写，85mm镜头，浅景深，固定机位，这是静止首帧，摄像机尚未运动。首帧可见事实：林澄双手托着略高于膝部的深蓝记录本，米色纸角露着，指尖稍绷紧，人物灰蓝袖口清楚。画面必须停在主要动作发生之前，不提前展示动作结束状态。只出现指定的人物和手，保持参考人物的身份、发型、体型、服装；场景门窗和家具几何稳定。纸面、封面、设备、手机均不需要可读文字，无字幕无标签。只生成一张电影镜头，不要角色多视图或多格图。本镜最高优先级是严格裁切到手、膝盖和记录本，画面上缘在腰部以下，不出现任何人脸、头发、胸口，也完全不包含背景同学；不要因为角色参考图而生成半身人像。"
+  },
+  {
+    "id": "S33",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-4e78689a-f65a-4b60-bee4-8e15a3aa4121.png",
+    "file": "frames/S33.png",
+    "status": "saved",
+    "prompt": "生成《窗帘后面的灯》S33的单张剧情首帧，1672x941 PNG，16:9横版，写实电影摄影，真实肤质、克制自然光，无文字水印拼贴。参考图1：只用于林澄的脸、发型、服装和体型。参考图2：只用于宿舍空间、木桌、奶油窗帘和绿色圆顶台灯；本子、便笺和时段以本镜为准。场景：离校之夜的宿舍，绿色台灯在木桌左侧亮着，奶油窗帘合着留窄缝，桌上已没有深蓝记录本。出镜及屏幕位置：林澄（仅图中中央的双手出镜）。摄影：手部特写，85mm镜头，浅景深，固定机位，这是静止首帧，摄像机尚未运动。首帧可见事实：林澄双手各捏完整米色便笺的一侧，沿折痕准备撕纸，纸还没有撕开；桌面为空，没有预先铺满碎纸，绿色灯在左侧虚焦。画面必须停在主要动作发生之前，不提前展示动作结束状态。只出现指定的人物和手，保持参考人物的身份、发型、体型、服装；场景门窗和家具几何稳定。纸面、封面、设备、手机均不需要可读文字，无字幕无标签。只生成一张电影镜头，不要角色多视图或多格图。画面严格裁切到桌面、手与道具，绝不出现头、脸、肩膀或上半身，不要因人物参考而改为半身照。最高优先级：纸是一张完整的连续米色长方形A5薄纸，两手捏住同一张纸，纸中只有折痕，绝没有裂口、分离、撕下的纸片或剪口，桌面没有碎纸；首帧还没开始撕。"
+  },
+  {
+    "id": "S34",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-29960029-a33c-41d2-9347-a83a5a55a314.png",
+    "file": "frames/S34.png",
+    "status": "saved",
+    "prompt": "生成《窗帘后面的灯》S34的单张剧情首帧，1672x941 PNG，16:9横版，写实电影摄影，真实肤质、克制自然光，无文字水印拼贴。参考图1：只用于林澄的脸、发型、服装和体型。参考图2：只用于宿舍空间、木桌、奶油窗帘和绿色圆顶台灯；本子、便笺和时段以本镜为准。场景：离校之夜的宿舍，绿色台灯在木桌左侧亮着，奶油窗帘合着留窄缝，桌上已没有深蓝记录本。出镜及屏幕位置：林澄（图中中右侧的人）。摄影：中景，50mm镜头，中等景深，固定机位，这是静止首帧，摄像机尚未运动。首帧可见事实：同夜稍后，林澄坐在中右侧，双手空着搭在桌边，几条撕好的米色细纸平放桌面，台灯仍亮，窗帘合着只留窄缝，没有深蓝本子。画面必须停在主要动作发生之前，不提前展示动作结束状态。只出现指定的人物和手，保持参考人物的身份、发型、体型、服装；场景门窗和家具几何稳定。纸面、封面、设备、手机均不需要可读文字，无字幕无标签。只生成一张电影镜头，不要角色多视图或多格图。桌面碎纸是几根长的细米色纸条，非大量小方形彩纸；没有完整信纸、没有书本；灰蓝衣袖和无首饰状态保持。"
+  },
+  {
+    "id": "S35",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-ecc00448-ff95-471d-914c-9a6c38e18df0.png",
+    "file": "frames/S35.png",
+    "status": "saved",
+    "prompt": "生成《窗帘后面的灯》S35的单张剧情首帧，1672x941 PNG，16:9横版，写实电影摄影，真实肤质、克制自然光，无文字水印拼贴。参考图1：只用于林澄的脸、发型、服装和体型。参考图2：只用于宿舍空间、木桌、奶油窗帘和绿色圆顶台灯；本子、便笺和时段以本镜为准。场景：次日清晨的宿舍，灰白天光透过画左的奶油窗帘，绿色圆顶台灯在旧木桌左侧，细纸留在桌上。出镜及屏幕位置：林澄（仅图中右侧伸来的右手出镜）。摄影：手部特写，85mm镜头，浅景深，固定机位，这是静止首帧，摄像机尚未运动。首帧可见事实：清晨灰白天光透过奶油窗帘，绿色台灯仍亮着，几条米色碎纸留桌上，林澄右手指尖悬在圆底座开关上方，灯未关。画面必须停在主要动作发生之前，不提前展示动作结束状态。只出现指定的人物和手，保持参考人物的身份、发型、体型、服装；场景门窗和家具几何稳定。纸面、封面、设备、手机均不需要可读文字，无字幕无标签。只生成一张电影镜头，不要角色多视图或多格图。画面严格裁切到桌面、手与道具，绝不出现头、脸、肩膀或上半身，不要因人物参考而改为半身照。"
+  },
+  {
+    "id": "S36",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-ab38031f-6c22-47e7-89f6-11531a6a8e48.png",
+    "file": "frames/S36.png",
+    "status": "saved",
+    "prompt": "生成《窗帘后面的灯》S36的单张剧情首帧，1672x941 PNG，16:9横版，写实电影摄影，真实肤质、克制自然光，无文字水印拼贴。参考图1：只用于林澄的脸、发型、服装和体型。参考图2：只用于宿舍空间、木桌、奶油窗帘和绿色圆顶台灯；本子、便笺和时段以本镜为准。场景：次日清晨的宿舍，灰白天光透过画左的奶油窗帘，绿色圆顶台灯在旧木桌左侧，细纸留在桌上。出镜及屏幕位置：林澄（图中中右侧的人）。摄影：中远景，35mm镜头，大景深，固定机位，这是静止首帧，摄像机尚未运动。首帧可见事实：宿舍同一书桌，绿色台灯已熄，米色细纸留在桌中，没有深蓝本子；林澄在中右侧站定，右手轻搭画左仍合着的奶油窗帘边缘，天光透帘。画面必须停在主要动作发生之前，不提前展示动作结束状态。只出现指定的人物和手，保持参考人物的身份、发型、体型、服装；场景门窗和家具几何稳定。纸面、封面、设备、手机均不需要可读文字，无字幕无标签。只生成一张电影镜头，不要角色多视图或多格图。最高优先级：绿色台灯开关关闭，灯泡完全无光，不投射暖色光斑，全部光来自清晨窗外；窗帘仍合着仅留小缝，右手才刚搭上帘边，尚未拉开。"
+  },
+  {
+    "id": "S26",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-3bf4d749-85e8-47b6-a711-950f173908cb.png",
+    "file": "frames/S26.png",
+    "status": "prop_revision",
+    "prompt": "仅编辑这张现有首帧的一个道具：把林澄右手中立体纸船形状的纸，替换成同一只手轻握的一张普通米色便笺，简单对折后是平坦狭长长方形，宽约6厘米、长约12厘米，没有尖角、船舷、三角折痕、立体结构，绝不是纸船纸飞机或别的折纸。其余画面完全保持不变：人物准确脸与表情、发型、衣服、手的姿态位置、家具、背景人物、光线、镜头和构图。保持手指解剖自然。单张1672x941横版PNG，无文字无水印。"
+  },
+  {
+    "id": "S27",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-ac84e019-5af2-4b2f-8a29-5b3e156a52e3.png",
+    "file": "frames/S27.png",
+    "status": "prop_revision",
+    "prompt": "仅编辑参考图中周屿双手里的深蓝记录本，把它修复成一本完全闭合的普通深蓝布面硬皮记录本，封面与背面平行、白色纸页整齐夹在中间、矩形书脊和四条边符合真实物理，只有一本书，不要出现悬空内页、第二本书、翻出的多余封面。保留他双手原姿态，可微调指尖以真实持握书本。人物脸、头发、服装、左侧林澄虚焦前景、右后同学、室内背景和光线完全不变。1672x941单张横版PNG，无可读文字水印。"
+  },
+  {
+    "id": "S32",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-88068228-a5f8-4ae8-acb3-3dfce53f6e4b.png",
+    "file": "frames/S32.png",
+    "status": "saved"
+  },
+  {
+    "id": "S31",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-2feda1ba-0f45-4c9b-9702-cab1b8149312.png",
+    "file": "frames/S31.png",
+    "status": "saved"
+  },
+  {
+    "id": "S29",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-d2875fef-552c-4538-9416-5daa3e41a8f3.png",
+    "file": "frames/S29.png",
+    "status": "prop_revision",
+    "prompt": "仅编辑这张现有首帧的一个道具：把林澄右手中立体纸船形状的纸，替换成同一只手轻握的一张普通米色便笺，简单对折后是平坦狭长长方形，宽约6厘米、长约12厘米，没有尖角、船舷、三角折痕、立体结构，绝不是纸船纸飞机或别的折纸。其余画面完全保持不变：人物准确脸与表情、发型、衣服、手的姿态位置、家具、背景人物、光线、镜头和构图。保持手指解剖自然。单张1672x941横版PNG，无文字无水印。"
+  },
+  {
+    "id": "S30",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-e156012b-810b-4219-92ca-e915a9b3f90f.png",
+    "file": "frames/S30.png",
+    "status": "saved",
+    "prompt": "生成《窗帘后面的灯》S30的单张剧情首帧，1672x941 PNG，16:9横版，写实电影摄影，真实肤质、克制自然光，无文字水印拼贴。参考图1：只用于林澄的脸、发型、服装和体型。参考图2：只用于宿舍空间、木桌、奶油窗帘和绿色圆顶台灯；本子、便笺和时段以本镜为准。场景：离校之夜的宿舍，绿色台灯在木桌左侧亮着，奶油窗帘合着留窄缝，桌上已没有深蓝记录本。出镜及屏幕位置：林澄（仅图中中央偏右的双手出镜）。摄影：手部近景，65mm镜头，中等景深，略俯固定机位，这是静止首帧，摄像机尚未运动。首帧可见事实：绿色台灯暖光下，林澄双手托着折成窄条的米色便笺，桌面无深蓝本子，纸还未展开。画面必须停在主要动作发生之前，不提前展示动作结束状态。只出现指定的人物和手，保持参考人物的身份、发型、体型、服装；场景门窗和家具几何稳定。纸面、封面、设备、手机均不需要可读文字，无字幕无标签。只生成一张电影镜头，不要角色多视图或多格图。画面严格裁切到桌面、手与道具，绝不出现头、脸、肩膀或上半身，不要因人物参考而改为半身照。便笺是一张米色薄纸简单对折成平坦长方形，不是纸船，不是纸飞机，不是立体折纸，不要尖角结构。"
+  },
+  {
+    "id": "S35",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-7bb09f63-f3f1-4214-8c64-58468c018e90.png",
+    "file": "frames/S35.png",
+    "status": "ending_continuity_revision",
+    "prompt": "只修正这张图片桌面上的纸张道具，其他部分完全不动。删除右后方那张完整带横线的纸及所有方形碎纸。改为五条狭长的米色薄纸条，长度约12厘米、宽度约0.8厘米，撕边略不齐，平铺在原来碎纸区域，不能变回完整便笺。保留绿色台灯正在亮着的状态、女主灰蓝袖口、悬在开关前的右手与每根手指、清晨光线、窗帘、构图和1672x941尺寸。只做指定道具编辑，无文字无水印。"
+  },
+  {
+    "id": "S36",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a05597-4eda-7282-a0cc-e12f6417225a\\exec-a88c2505-31ef-466a-86c6-7603c1553e2f.png",
+    "file": "frames/S36.png",
+    "status": "ending_continuity_revision",
+    "prompt": "编辑这张结尾首帧，人物和灯的状态不变，只修正窗帘与纸：1桌上的完整米色纸整张移除，换成五条长约12厘米宽约0.8厘米的米色细纸，平放在桌面原纸区域，没有完整纸或书本；2奶油色左右窗帘合拢到只剩中央一条约2厘米的竖缝，明亮清晨光从布料透进来，不能露出大幅窗外建筑；3林澄右手轻触闭合帘的边缘，处于即将拉开之前，不把帘拉开，身体位置与脸保持不变。绿色台灯必须继续关闭不发光。保持林澄准确脸、低马尾、灰蓝衣服、木桌和书架结构、自然清晨色彩、相同镜头景别及1672x941横版尺寸。无文字无水印。"
+  }
+]

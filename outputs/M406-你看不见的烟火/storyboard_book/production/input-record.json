@@ -1,0 +1,34 @@
+{
+  "song_id": "M406",
+  "title": "你看不见的烟火",
+  "source_path": "../M406-故事内容.md",
+  "source_sha256": "D94F3E5012A0CB4A15BDAE994F9601050A9EFBC9D03A8BC5D880CAC3F7BCFF94",
+  "source_extraction": {
+    "heading": "故事内容",
+    "status": "parsed",
+    "facts_used": [
+      "温宁是康复师，照顾失去短期记忆的消防员陆骁",
+      "两人每晚在医院天台看灯火，陆骁每天醒来会忘记温宁",
+      "元旦夜温宁想借远处烟火表白，陆骁收到出院通知并谈起回队",
+      "温宁把写有两人名字的烟花票夹进病历",
+      "多年后陆骁经过医院，仍不知道温宁曾陪他看完那片夜空"
+    ]
+  },
+  "batch_config": {
+    "target_duration_seconds": 300,
+    "allowed_duration_seconds": [240, 360],
+    "shot_duration_seconds": [5, 10],
+    "aspect_ratio": "16:9",
+    "workflow_stage": "A-C complete; pending independent narrative review",
+    "visual_assets_generated": false,
+    "archive_delivery": false
+  },
+  "skill_fingerprint": {
+    "entry_path": "C:/Users/Administrator/.codex/skills/ai-director-storyboard/SKILL.md",
+    "entry_sha256": "9402862BF653419B8C4DDFA2C550D46B8FAA9EB34F9C938290FF2E5EFC6593D2",
+    "directing_workflow_sha256": "561C1FE69B409A2C17FEC3E9B86E669A9D9689430E5A945D05269096930CC90D",
+    "manifest_schema_sha256": "8CC9AFBD2A34854B18E82214F113132F55F113AA7C482C910E845F38F0FF56A6"
+  },
+  "created_by": "lead_5",
+  "created_at": "2026-08-31"
+}

@@ -1,0 +1,10 @@
+{
+  "song_id": "M409",
+  "title": "未命名的联系人",
+  "source_file": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M409-未命名的联系人\\M409-故事内容.md",
+  "source_sha256": "cccff7dc75ede0e07c61b38379fb3b5fe64a504130844cf7e6f06d3c1c095554",
+  "story_body_end_marker": "[Verse]",
+  "target_duration_seconds": 300,
+  "phase": "C_complete_pending_narrative_review",
+  "isolation_statement": "Only M409 story body was read for creative work."
+}

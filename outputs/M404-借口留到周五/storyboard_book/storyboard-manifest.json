@@ -1,0 +1,305 @@
+{
+  "project": {
+    "song_id": "M404",
+    "title": "借口留到周五",
+    "stage": "C_pending_narrative_review",
+    "final_prompt_format": "scene-character-camera-action-v1",
+    "total_duration_seconds": 300,
+    "preferred_min_shot_seconds": 5,
+    "max_shot_seconds": 10,
+    "aspect_ratio": "16:9",
+    "frame_size": null,
+    "style": "真人实拍质感的都市情感短片（视觉阶段尚未放行）",
+    "character_status": "not_created_before_C5_pass",
+    "scene_status": "not_created_before_C5_pass"
+  },
+  "global_constraints": [
+    "仅为无图剧情审查草案，严禁据此生成图片或视频",
+    "人物身份和场景资产待C.5通过后单独建立",
+    "不依赖可读的手机、邮件、提案或机场屏幕文字",
+    "每镜首帧停在主要动作发生前，最终视频提示词只保留一段四字段文本"
+  ],
+  "characters": [],
+  "shots": [
+    {
+      "id": "S01", "start_timecode": "00:00", "end_timecode": "00:08", "duration": 8,
+      "scene": "旧周五夜的广告公司开放办公区，窗外城市已暗", "characters": [], "shot": "大全景，35mm镜头，大景深，固定机位",
+      "visual": "空办公区只亮着两盏工作灯，程野和许棠分坐相邻工位。", "motion": "程野抬头确认许棠仍在，许棠把椅子向他的方向轻推。", "dialogue": "无对白；空调低鸣与远处电梯提示音。", "sound": "空调、键盘余响、电梯提示音。",
+      "first_frame_static_state": "两人都未看向镜头，桌上各有未整理的项目稿，灯光只来自桌灯和窗外城市反光。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：旧周五夜的广告公司开放办公区，窗外城市微光与两盏桌灯照出真实暗部。角色：程野（图中右侧的人）、许棠（图中左侧的人），相邻工位上保持自然肤质与下班后的普通通勤装。镜头：大全景，35mm镜头，大景深，眼平固定机位，真实办公室现场摄影的自然曝光。动作：程野从项目稿抬眼确认许棠还在，许棠把椅子轻轻向他的方向挪近；两人都不看镜头，无对白。]"
+    },
+    {
+      "id": "S02", "start_timecode": "00:08", "end_timecode": "00:16", "duration": 8,
+      "scene": "同一办公区的程野工位", "characters": ["程野"], "shot": "中近景，50mm镜头，中等景深，侧后方机位",
+      "visual": "程野翻开项目打印稿，手机倒扣在笔记本旁。", "motion": "他翻过一页后手指停在手机边缘，没有立刻拿起。", "dialogue": "无对白；纸张摩擦声。", "sound": "纸张摩擦、远处键盘声。",
+      "first_frame_static_state": "程野身体前倾看稿，手机屏幕不可见，手还未触到手机。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：深夜的广告公司工位，桌灯从右侧照亮打印稿和普通办公桌面的细微反光。角色：程野（图中中央偏右的人），保持自然短发、真实肤质和微皱的衬衫袖口。镜头：中近景，50mm镜头，中等景深，侧后方固定机位，对焦在程野翻稿的手与侧脸。动作：程野翻过一页项目稿后手指停在倒扣手机旁，犹豫着没有拿起；纸张摩擦声，无对白。]"
+    },
+    {
+      "id": "S03", "start_timecode": "00:16", "end_timecode": "00:24", "duration": 8,
+      "scene": "程野工位键盘旁", "characters": ["许棠", "程野"], "shot": "手部与半身近景，65mm镜头，浅景深，桌面高度机位",
+      "visual": "许棠端着一杯外带咖啡停在程野键盘旁，程野仍看着屏幕。", "motion": "许棠把咖啡稳稳放下，对程野说“顺手买的”。", "dialogue": "许棠：“顺手买的。”", "sound": "杯底轻碰桌面声。",
+      "first_frame_static_state": "咖啡仍悬在桌面上方，许棠的手腕放松，程野尚未转头。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：深夜广告公司工位，桌灯照亮键盘旁的木质桌面和纸杯投下的短阴影。角色：许棠（图中左侧只露半身的人）、程野（图中右侧坐着的人），两人保持自然肤质与普通通勤服装。镜头：手部与半身近景，65mm镜头，浅景深，桌面高度固定机位，对焦在纸杯和许棠的手。动作：许棠把一杯咖啡稳稳放到程野键盘旁，对他说“顺手买的”，程野仍看着屏幕；杯子与桌面接触真实。]"
+    },
+    {
+      "id": "S04", "start_timecode": "00:24", "end_timecode": "00:32", "duration": 8,
+      "scene": "程野工位，桌灯下", "characters": ["程野"], "shot": "近景，85mm镜头，浅景深，略低机位",
+      "visual": "程野的手停在咖啡与手机之间，手机亮起无可读的预约确认色块。", "motion": "他看一眼手机后按灭屏幕，把手机推到打印稿下。", "dialogue": "无对白；手机轻震后停止。", "sound": "手机轻震、纸张移动声。",
+      "first_frame_static_state": "手机只有模糊色块，没有可读文字；程野尚未触屏。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：桌灯下的广告公司工位，咖啡纸杯、手机和打印稿构成可信的真实桌面。角色：程野（图中中央的人），自然肤质，衬衫袖口有正常褶皱。镜头：近景，85mm镜头，浅景深，略低固定机位，对焦在程野停顿的手和手机。动作：程野看见手机上模糊的预约确认色块后按灭屏幕，把手机推到打印稿下面；没有可读屏幕文字，无对白。]"
+    },
+    {
+      "id": "S05", "start_timecode": "00:32", "end_timecode": "00:40", "duration": 8,
+      "scene": "相邻工位之间的桌灯边", "characters": ["程野", "许棠"], "shot": "双人中景，40mm镜头，中等景深，眼平机位",
+      "visual": "许棠站在桌边等程野回答，程野抬头，咖啡在两人之间。", "motion": "程野把打印稿合上，对许棠说“等这版过了，请你吃顿像样的”。", "dialogue": "程野：“等这版过了，请你吃顿像样的。”", "sound": "纸页合拢声，远处空调声。",
+      "first_frame_static_state": "程野的手还压在未合上的稿件上，许棠身体微向前，目光落在他脸上。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：空办公室相邻工位之间，两盏桌灯提供温暖但有限的光，窗边保留夜色暗部。角色：许棠（图中左侧站着的人）、程野（图中右侧坐着的人），保持日常通勤装和自然表情。镜头：双人中景，40mm镜头，中等景深，眼平固定机位，焦点落在两人的目光之间。动作：程野合上打印稿，对许棠说“等这版过了，请你吃顿像样的”，许棠停顿后轻轻笑；咖啡留在两人之间。]"
+    },
+    {
+      "id": "S06", "start_timecode": "00:40", "end_timecode": "00:48", "duration": 8,
+      "scene": "同一办公区，桌灯下的两张椅子", "characters": ["程野", "许棠"], "shot": "双人中景，50mm镜头，中等景深，侧面机位",
+      "visual": "程野和许棠并排坐下，桌面隔着一叠修订稿。", "motion": "两人同时俯身看同一页，肩膀几乎靠近又各自停住。", "dialogue": "无对白；键盘声重新开始。", "sound": "键盘声、鼠标点击声。",
+      "first_frame_static_state": "两人之间保留一只手掌宽的距离，纸张平放，均未接触对方。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：深夜广告公司相邻工位，两盏桌灯照亮一叠修订稿，背景办公区自然虚化。角色：许棠（图中左侧坐着的人）、程野（图中右侧坐着的人），普通通勤服装有真实褶皱，表情克制。镜头：双人中景，50mm镜头，中等景深，侧面固定机位，对焦在两人的肩线和桌面稿件。动作：两人同时俯身看同一页提案，肩膀几乎靠近又各自停住；无对白，键盘声重新开始。]"
+    },
+    {
+      "id": "S07", "start_timecode": "00:48", "end_timecode": "00:56", "duration": 8,
+      "scene": "许棠的稿件边缘", "characters": ["许棠", "程野"], "shot": "手部特写，85mm镜头，浅景深，俯拍机位",
+      "visual": "许棠用铅笔指着一处冗长文案，程野的手停在纸页另一端。", "motion": "许棠划掉一行文字，程野顺着她的笔迹点头。", "dialogue": "无对白；铅笔划纸声。", "sound": "铅笔划纸、轻微呼吸声。",
+      "first_frame_static_state": "两只手分处纸张两侧，铅笔尚未落下，纸面文字不可读。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：桌灯照亮的广告公司稿件桌面，纸张纤维和铅笔阴影真实可见，纸面文字保持不可读。角色：许棠（图中左侧只露手的人）、程野（图中右侧只露手的人）。镜头：手部特写，85mm镜头，浅景深，俯拍固定机位，对焦在铅笔尖和两人未触碰的手指。动作：许棠划掉一行冗长文案，程野顺着她的笔迹轻轻点头；铅笔划纸声，无对白。]"
+    },
+    {
+      "id": "S08", "start_timecode": "00:56", "end_timecode": "01:04", "duration": 8,
+      "scene": "程野和许棠之间的桌面，墙钟临近下班时间", "characters": ["程野", "许棠"], "shot": "中近景，55mm镜头，浅景深，桌面侧方机位",
+      "visual": "许棠已把充电线收进包里，墙钟显示普通下班时段，程野看着她。", "motion": "程野抬起一根手指问“再留一小时？”，许棠把充电线重新接回电脑。", "dialogue": "程野：“再留一小时？”", "sound": "墙钟轻响、充电线插入接口的轻响。",
+      "first_frame_static_state": "充电线仍在许棠半开的包里，程野的手尚未抬起，墙钟数字不要求可读。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：夜间广告公司两张相邻办公桌之间，墙钟和桌灯形成有来源的局部暖光，背景保留自然暗部。角色：程野（图中右侧的人）、许棠（图中左侧的人），手部皮肤和衣袖材质自然。镜头：中近景，55mm镜头，浅景深，桌面侧方固定机位，对焦在两人之间的充电线。动作：程野抬起一根手指对许棠问“再留一小时？”，许棠把已收起的充电线重新接回电脑；两人没有接触。]"
+    },
+    {
+      "id": "S09", "start_timecode": "01:04", "end_timecode": "01:12", "duration": 8,
+      "scene": "办公区窗边，城市夜景后方", "characters": ["程野"], "shot": "近景，50mm镜头，浅景深，侧面机位",
+      "visual": "程野靠回椅背，看向仍亮着的许棠工位。", "motion": "程野低声说“周五总能多一点时间”。", "dialogue": "程野：“周五总能多一点时间。”", "sound": "空调声与远处车辆声。",
+      "first_frame_static_state": "程野尚未开口，侧脸被桌灯勾出自然亮面，窗外城市虚化。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：广告公司窗边工位，桌灯照亮程野侧脸，窗外城市夜景仅作自然虚化光点。角色：程野（图中右侧的人），自然短发、真实肤质和放松的坐姿。镜头：近景，50mm镜头，浅景深，侧面固定机位，对焦在程野的眼睛。动作：程野看向仍亮着的许棠工位，低声说“周五总能多一点时间”；说完没有立刻回头。]"
+    },
+    {
+      "id": "S10", "start_timecode": "01:12", "end_timecode": "01:20", "duration": 8,
+      "scene": "许棠工位，桌灯与夜窗之间", "characters": ["许棠"], "shot": "近景，50mm镜头，浅景深，反打机位",
+      "visual": "许棠转着手中的铅笔，望向程野所在方向。", "motion": "她轻笑，对程野说“因为大家都说是赶工”。", "dialogue": "许棠：“因为大家都说是赶工。”", "sound": "铅笔轻碰桌面声。",
+      "first_frame_static_state": "许棠尚未笑开，铅笔横在指间，目光明确投向画外的程野。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：深夜广告公司许棠的工位，桌灯从前侧照亮她和铅笔，窗外夜色保留层次。角色：许棠（图中中央的人），自然肤质、普通通勤衬衫和放松发丝。镜头：近景，50mm镜头，浅景深，反打固定机位，对焦在许棠看向画外的眼睛。动作：许棠轻轻转着铅笔，对程野说“因为大家都说是赶工”，说完把笑意收回。]"
+    },
+    {
+      "id": "S11", "start_timecode": "01:20", "end_timecode": "01:27", "duration": 7,
+      "scene": "周四午后的许棠工位，阴天窗光", "characters": ["许棠"], "shot": "中近景，50mm镜头，中等景深，侧面机位",
+      "visual": "许棠独自坐在工位，手机亮起一则公司通知，屏幕内容不可读。", "motion": "她读完后呼吸停住，缓慢把手机扣在桌上。", "dialogue": "无对白；办公室白噪声。", "sound": "空调、远处打印机声。",
+      "first_frame_static_state": "手机竖在桌面上发出冷白光，许棠的手刚停在屏幕旁，表情尚未变化。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周四午后的广告公司工位，阴天窗光与办公顶灯形成真实冷色层次，手机内容不可读。角色：许棠（图中中央的人），自然肤质和日常通勤装。镜头：中近景，50mm镜头，中等景深，侧面固定机位，对焦在许棠和桌上手机的距离。动作：许棠读完公司通知后呼吸停住，缓慢把手机扣在桌上；无对白，办公室白噪声持续。]"
+    },
+    {
+      "id": "S12", "start_timecode": "01:27", "end_timecode": "01:34", "duration": 7,
+      "scene": "周四午后的办公区过道", "characters": ["程野", "许棠"], "shot": "双人中景，40mm镜头，大景深，横移机位",
+      "visual": "程野端着两杯咖啡走向许棠，她把手机藏到文件下。", "motion": "程野把其中一杯递给她，许棠接过却没有喝。", "dialogue": "程野：“还撑得住吗？”", "sound": "咖啡杯盖轻响、脚步声。",
+      "first_frame_static_state": "程野离桌还有两步，许棠的手压在文件边缘，手机已被遮住。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周四午后的广告公司过道，窗光和顶灯照亮真实办公家具，地面有轻微反射。角色：程野（图中左侧端着咖啡的人）、许棠（图中右侧坐着的人），保持普通通勤服装和自然状态。镜头：双人中景，40mm镜头，大景深，缓慢横移机位，对焦跟随咖啡杯。动作：程野把一杯咖啡递给许棠，对她说“还撑得住吗”，许棠接过却没有立刻喝。]"
+    },
+    {
+      "id": "S13", "start_timecode": "01:34", "end_timecode": "01:41", "duration": 7,
+      "scene": "许棠工位的投影光旁", "characters": ["许棠", "程野"], "shot": "过肩中近景，55mm镜头，中等景深，许棠肩后机位",
+      "visual": "许棠望着投影上的模糊版式，程野站在她身后。", "motion": "许棠不回头地问“如果一份工作突然提前结束，你会先做什么？”。", "dialogue": "许棠：“如果一份工作突然提前结束，你会先做什么？”", "sound": "投影机风扇声。",
+      "first_frame_static_state": "许棠双手放在桌边，程野尚未坐下，投影文字不可读。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周四午后的广告公司投影区，投影的冷光和窗光交叠，版式文字保持模糊不可读。角色：许棠（图中前景背对镜头的人）、程野（图中右后方站着的人），衣料和头发保持自然质感。镜头：过肩中近景，55mm镜头，中等景深，许棠肩后固定机位，对焦在她的侧脸轮廓。动作：许棠望着投影，不回头地问程野“如果一份工作突然提前结束，你会先做什么？”。]"
+    },
+    {
+      "id": "S14", "start_timecode": "01:41", "end_timecode": "01:48", "duration": 7,
+      "scene": "投影区的程野侧脸", "characters": ["程野"], "shot": "近景，65mm镜头，浅景深，侧面机位",
+      "visual": "程野看着最后期限的项目页面，手指轻敲桌边。", "motion": "他思考片刻，对许棠说“把该交的都交完”。", "dialogue": "程野：“把该交的都交完。”", "sound": "手指轻敲木桌声。",
+      "first_frame_static_state": "程野视线仍在投影方向，嘴唇未张开，指尖悬在桌边。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：广告公司投影区，冷白投影光照在程野侧脸，桌面和墙面保留真实低饱和材质。角色：程野（图中中央的人），自然短发、真实肤质和衬衫袖口褶皱。镜头：近景，65mm镜头，浅景深，侧面固定机位，对焦在程野的眼睛和手指。动作：程野思考片刻后对许棠说“把该交的都交完”，手指轻敲桌边后停下。]"
+    },
+    {
+      "id": "S15", "start_timecode": "01:48", "end_timecode": "01:55", "duration": 7,
+      "scene": "许棠工位，咖啡未动", "characters": ["许棠"], "shot": "近景，85mm镜头，浅景深，正侧方机位",
+      "visual": "许棠看着未喝的咖啡，指尖压住手机下方的文件角。", "motion": "她点一下头，把视线重新放回电脑。", "dialogue": "无对白。", "sound": "鼠标点击声和低低的办公室环境声。",
+      "first_frame_static_state": "咖啡杯仍完整放在桌面，许棠眼睛有停顿，文件没有被掀开。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周四午后许棠的办公桌，冷窗光照亮未喝的咖啡杯和文件边缘，桌面状态可信。角色：许棠（图中中央的人），自然肤质，眼下有轻微疲惫但不过度修饰。镜头：近景，85mm镜头，浅景深，正侧方固定机位，对焦在许棠的眼睛和压住文件的手。动作：许棠无声地点一下头，把视线重新放回电脑；咖啡仍未被触碰。]"
+    },
+    {
+      "id": "S16", "start_timecode": "01:55", "end_timecode": "02:02", "duration": 7,
+      "scene": "周四傍晚的电梯厅，玻璃门外可见办公室", "characters": ["许棠", "程野"], "shot": "长焦中景，70mm镜头，中等景深，走廊另一端机位",
+      "visual": "许棠独自站在电梯里，手夹着调职文件，程野隔着玻璃门接客户电话。", "motion": "电梯门缓慢合上，许棠视线从程野身上移开。", "dialogue": "程野画外音：“周五一定给最终版。”", "sound": "电梯门提示音、程野模糊电话声。",
+      "first_frame_static_state": "电梯门尚未关闭，许棠站在门内一侧，文件文字不可读，程野在远处玻璃后。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周四傍晚的办公楼电梯厅，顶灯和玻璃门反射构成真实冷光，远处办公室仍亮着。角色：许棠（图中前景电梯内的人）、程野（图中背景玻璃后的人），文件文字不可读，服装保持日常通勤状态。镜头：长焦中景，70mm镜头，中等景深，走廊另一端固定机位。动作：电梯门缓慢合上，许棠把视线从程野身上移开；程野画外音说“周五一定给最终版”。]"
+    },
+    {
+      "id": "S17", "start_timecode": "02:02", "end_timecode": "02:09", "duration": 7,
+      "scene": "周四深夜的空办公室，投影幕前", "characters": ["许棠"], "shot": "中景，40mm镜头，大景深，侧后方机位",
+      "visual": "许棠独自坐在投影前，最后一页提案只剩模糊色块和光标。", "motion": "她敲下最后一句私人文案后停手，望向程野的空工位。", "dialogue": "无对白；投影风扇与键盘声。", "sound": "键盘、投影风扇、空调。",
+      "first_frame_static_state": "许棠双手悬在键盘上方，投影无可读文字，程野工位为空。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周四深夜的空办公室，投影冷光照亮许棠和空工位，桌灯未开，空间有自然暗部。角色：许棠（图中左侧坐着的人），自然肤质、普通通勤衬衫和微乱发丝。镜头：中景，40mm镜头，大景深，侧后方固定机位，对焦在许棠与远处空工位。动作：许棠敲下最后一句私人文案后停手，望向程野的空工位；投影文字不可读，无对白。]"
+    },
+    {
+      "id": "S18", "start_timecode": "02:09", "end_timecode": "02:16", "duration": 7,
+      "scene": "投影幕前的许棠", "characters": ["许棠"], "shot": "近景，65mm镜头，浅景深，侧面机位",
+      "visual": "投影光落在许棠脸上，她把咖啡杯向键盘旁移正。", "motion": "她轻触杯盖后收回手，将页面保存。", "dialogue": "无对白。", "sound": "保存提示音、纸杯盖细响。",
+      "first_frame_static_state": "许棠的指尖还未碰到杯盖，咖啡杯与键盘距离清楚，投影文字不可读。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：深夜广告公司投影幕前，冷白投影光照亮许棠侧脸和键盘旁的咖啡杯，画面保留自然颗粒与暗部。角色：许棠（图中中央的人），自然肤质和克制表情。镜头：近景，65mm镜头，浅景深，侧面固定机位，对焦在许棠的手与眼睛。动作：许棠轻触咖啡杯盖后收回手，将最后页面保存；投影文字不可读，无对白。]"
+    },
+    {
+      "id": "S19", "start_timecode": "02:16", "end_timecode": "02:23", "duration": 7,
+      "scene": "周四夜的投影区，程野刚回到办公室", "characters": ["程野", "许棠"], "shot": "过肩双人中景，45mm镜头，中等景深，程野肩后机位",
+      "visual": "程野站在许棠身后看投影末页，许棠没有转身。", "motion": "程野指向页面，对许棠问“客户临时改的？”。", "dialogue": "程野：“客户临时改的？”", "sound": "门合上的轻响、投影风扇。",
+      "first_frame_static_state": "程野刚停在许棠椅后，手尚未抬起，投影内容不可读。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周四夜的广告公司投影区，投影冷光与走廊余光照亮两人，办公空间不过度美化。角色：许棠（图中前景坐着的人）、程野（图中后方站着的人），保持自然肤质和日常服装。镜头：过肩双人中景，45mm镜头，中等景深，程野肩后固定机位。动作：程野指向投影末页，对许棠问“客户临时改的”，许棠没有回头；投影文字不可读。]"
+    },
+    {
+      "id": "S20", "start_timecode": "02:23", "end_timecode": "02:30", "duration": 7,
+      "scene": "投影区的许棠侧脸", "characters": ["许棠"], "shot": "近景，85mm镜头，浅景深，反打机位",
+      "visual": "许棠的脸被投影光切出明暗，她看着未保存图标。", "motion": "她停一拍，对程野说“算是吧”，随后按下保存。", "dialogue": "许棠：“算是吧。”", "sound": "短暂静默后是键盘按键声。",
+      "first_frame_static_state": "许棠尚未开口，手指停在键盘上方，目光不与程野相接。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：深夜广告公司投影区，投影光在许棠脸上形成有来源的自然明暗，背景简洁而真实。角色：许棠（图中中央的人），自然肤质、轻微疲惫和克制呼吸。镜头：近景，85mm镜头，浅景深，反打固定机位，对焦在许棠的眼睛。动作：许棠停一拍，对程野说“算是吧”，随后按下保存；她始终不与他对视。]"
+    },
+    {
+      "id": "S21", "start_timecode": "02:30", "end_timecode": "02:37", "duration": 7,
+      "scene": "投影幕前的两人", "characters": ["程野", "许棠"], "shot": "双人中景，40mm镜头，大景深，侧面机位",
+      "visual": "程野俯身调整投影版式，许棠坐在旁边看着他。", "motion": "程野拖动版式元素，许棠把想说的话咽回去。", "dialogue": "程野：“我把这一页再顺一下。”", "sound": "鼠标拖动、投影风扇。",
+      "first_frame_static_state": "程野的手刚握住鼠标，许棠双手放在膝上，投影仅见色块。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周四深夜的投影幕前，冷投影光和微弱走廊光让真实办公桌与椅子保留材质。角色：程野（图中右侧俯身的人）、许棠（图中左侧坐着的人），普通通勤装、自然姿态。镜头：双人中景，40mm镜头，大景深，侧面固定机位。动作：程野拖动投影里的版式元素，对许棠说“我把这一页再顺一下”，许棠把想说的话咽回去；文字不可读。]"
+    },
+    {
+      "id": "S22", "start_timecode": "02:37", "end_timecode": "02:44", "duration": 7,
+      "scene": "周五下午的程野工位", "characters": ["程野"], "shot": "中近景，50mm镜头，浅景深，侧面机位",
+      "visual": "程野打开与许棠的聊天输入框，手机旁仍压着餐厅预约。", "motion": "他打出“今晚别先走”后停住，没有发送。", "dialogue": "无对白；手机轻触声。", "sound": "手机触屏声、办公室电话铃。",
+      "first_frame_static_state": "程野拇指悬在发送位置上方，屏幕文字不可读，餐厅预约信息不可读。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周五下午的广告公司工位，窗光和顶灯均匀落在真实桌面，手机文字不可读。角色：程野（图中右侧坐着的人），自然肤质和普通衬衫。镜头：中近景，50mm镜头，浅景深，侧面固定机位，对焦在程野悬停的拇指。动作：程野在聊天框打出邀请后停住，没有按发送；餐厅预约压在手机旁，无对白。]"
+    },
+    {
+      "id": "S23", "start_timecode": "02:44", "end_timecode": "02:51", "duration": 7,
+      "scene": "周五下午的开放办公区", "characters": ["程野"], "shot": "中景，40mm镜头，大景深，手持轻跟机",
+      "visual": "程野的办公电话响起，他一手抓起文件一手接电话。", "motion": "他把未发送的手机扣下，边走边对电话说“我现在改”。", "dialogue": "程野：“我现在改。”", "sound": "电话铃、急促脚步、翻文件声。",
+      "first_frame_static_state": "电话刚响，程野半起身，手机仍亮着但文字不可读。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周五下午的开放办公区，自然窗光与白色顶灯照亮真实工位和过道。角色：程野（图中中央起身的人），衬衫因动作出现真实褶皱。镜头：中景，40mm镜头，大景深，轻微手持跟机，对焦跟随程野。动作：电话响起，程野把未发送的手机扣下，抓起文件边走边说“我现在改”。]"
+    },
+    {
+      "id": "S24", "start_timecode": "02:51", "end_timecode": "02:58", "duration": 7,
+      "scene": "许棠工位，周五傍晚前", "characters": ["许棠"], "shot": "中近景，55mm镜头，中等景深，侧面机位",
+      "visual": "许棠打开抽屉，取出耳机和一盆小绿植，行李箱靠在桌下。", "motion": "她把耳机放入行李箱，合上抽屉。", "dialogue": "无对白；抽屉滑轨声。", "sound": "抽屉滑轨、纸张轻响。",
+      "first_frame_static_state": "行李箱半开但不遮挡通道，小绿植仍在桌上，许棠手刚伸进抽屉。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周五傍晚前的许棠工位，窗光照亮普通抽屉、耳机和小绿植，行李箱材质和轮子真实。角色：许棠（图中中央的人），自然肤质、普通通勤装和安静表情。镜头：中近景，55mm镜头，中等景深，侧面固定机位，对焦在她与桌下行李箱。动作：许棠把耳机放入行李箱，合上抽屉；没有夸张收拾动作，无对白。]"
+    },
+    {
+      "id": "S25", "start_timecode": "02:58", "end_timecode": "03:05", "duration": 7,
+      "scene": "程野工位旁的过道", "characters": ["许棠", "程野"], "shot": "双人中景，45mm镜头，中等景深，眼平机位",
+      "visual": "许棠停在程野工位旁，程野戴着耳机对着电脑改稿。", "motion": "许棠问“今晚还加班吗”，程野不抬头答“最后一小时”。", "dialogue": "许棠：“今晚还加班吗？” 程野：“最后一小时。”", "sound": "键盘声、耳机漏出的模糊会议声。",
+      "first_frame_static_state": "许棠站在过道，程野尚未抬头，行李箱没有进入画面。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周五傍晚的广告公司过道，顶灯和窗边余光照亮普通工位，电脑文字不可读。角色：许棠（图中左侧站着的人）、程野（图中右侧坐着的人），保持日常服装和真实工作姿态。镜头：双人中景，45mm镜头，中等景深，眼平固定机位。动作：许棠问“今晚还加班吗”，程野不抬头答“最后一小时”，许棠停顿后轻轻点头。]"
+    },
+    {
+      "id": "S26", "start_timecode": "03:05", "end_timecode": "03:12", "duration": 7,
+      "scene": "周五夜的办公区窗边", "characters": ["许棠"], "shot": "中景，35mm镜头，大景深，侧后方机位",
+      "visual": "夜色落在玻璃窗上，许棠坐回电脑前，最后版本已处于定时等待状态。", "motion": "她检查一遍附件状态，确认邮件会在航班起飞时自动发出，然后合上电脑。", "dialogue": "无对白。", "sound": "电脑风扇、远处会议电话声。",
+      "first_frame_static_state": "屏幕只有模糊的定时状态色块，许棠手离鼠标半寸，窗中映出她的背影。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周五夜的广告公司窗边，玻璃映出许棠的背影，桌灯与城市夜光形成真实反射，屏幕文字不可读。角色：许棠（图中中央坐着的人），自然肤质和普通通勤装。镜头：中景，35mm镜头，大景深，侧后方固定机位，对焦在她和窗中倒影。动作：许棠检查一遍最终提案的定时状态，确认它会在航班起飞时自动发出后合上电脑；无对白。]"
+    },
+    {
+      "id": "S27", "start_timecode": "03:12", "end_timecode": "03:19", "duration": 7,
+      "scene": "周五夜的会议电话区", "characters": ["程野"], "shot": "中近景，50mm镜头，中等景深，轻微手持机位",
+      "visual": "程野站在玻璃会议室外接客户电话，背后是许棠模糊的工位。", "motion": "他抬手示意电话另一端再给十分钟。", "dialogue": "程野：“再给我十分钟。”", "sound": "压低的客户电话声、玻璃门轻响。",
+      "first_frame_static_state": "程野手还未抬起，玻璃上有自然反射，许棠只作背景虚影。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周五夜的玻璃会议室外，办公顶灯和玻璃反射保持真实层次，背景工位自然虚化。角色：程野（图中中央接电话的人）、许棠（图中背景模糊坐着的人）。镜头：中近景，50mm镜头，中等景深，轻微手持机位，对焦在程野的手势。动作：程野对客户电话抬手示意，对电话说“再给我十分钟”，没有看向许棠。]"
+    },
+    {
+      "id": "S28", "start_timecode": "03:19", "end_timecode": "03:26", "duration": 7,
+      "scene": "电梯厅入口，周五夜", "characters": ["许棠"], "shot": "中景，40mm镜头，大景深，跟拍机位",
+      "visual": "许棠拖着小行李箱站在电梯厅入口，肩上背包，办公室灯光在身后。", "motion": "她回头看一眼仍在电话里的程野，然后按下电梯键。", "dialogue": "无对白。", "sound": "行李轮声、电梯按钮提示音。",
+      "first_frame_static_state": "许棠的手还没碰到按钮，行李箱垂直站稳，程野在远处玻璃旁模糊可见。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周五夜的办公楼电梯厅，顶灯照亮真实墙面、地面和小行李箱，办公室灯光在身后延伸。角色：许棠（图中中央拖行李箱的人）、程野（图中远处模糊接电话的人）。镜头：中景，40mm镜头，大景深，缓慢跟拍机位，对焦在许棠的回头动作。动作：许棠回头看一眼仍在电话里的程野，然后按下电梯键；行李箱轮子与地面接触真实，无对白。]"
+    },
+    {
+      "id": "S29", "start_timecode": "03:26", "end_timecode": "03:33", "duration": 7,
+      "scene": "电梯门内外，周五夜", "characters": ["许棠"], "shot": "近景，65mm镜头，浅景深，电梯内侧机位",
+      "visual": "许棠站在打开的电梯内，行李箱在腿边，门外的办公室被框成一条亮带。", "motion": "电梯门开始合拢，许棠把手机握紧却没有拨号。", "dialogue": "无对白；电梯门提示音。", "sound": "电梯门合拢声、行李轮轻响。",
+      "first_frame_static_state": "电梯门完全打开，许棠手指松握手机，行李箱拉杆垂直。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周五夜的电梯内，顶灯照亮许棠和行李箱，门外办公室形成一条真实亮带。角色：许棠（图中中央的人），自然肤质、普通通勤装，手里手机屏幕不可读。镜头：近景，65mm镜头，浅景深，电梯内侧固定机位，对焦在许棠握手机的手与表情。动作：电梯门开始合拢，许棠把手机握紧却没有拨号；无对白。]"
+    },
+    {
+      "id": "S30", "start_timecode": "03:33", "end_timecode": "03:40", "duration": 7,
+      "scene": "许棠离开后的办公区", "characters": ["程野"], "shot": "中景，40mm镜头，大景深，从会议区望向空工位",
+      "visual": "程野结束电话回到办公区，许棠的椅子空着，桌上留下凉掉的咖啡杯。", "motion": "他停在空椅旁，拿起手机拨许棠电话。", "dialogue": "无对白；电话接通前的等待音。", "sound": "电话拨号音、空调低鸣。",
+      "first_frame_static_state": "程野刚走出会议区，手机还在手边，许棠工位空着且桌面少了小绿植。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周五夜的广告公司开放办公区，空工位只剩桌灯和凉掉的咖啡杯，空间有真实静默感。角色：程野（图中右侧走近的人），自然肤质和因加班略显疲惫的通勤装。镜头：中景，40mm镜头，大景深，从会议区望向空工位的固定机位。动作：程野停在许棠空椅旁，拿起手机拨她电话；电话等待音响起。]"
+    },
+    {
+      "id": "S31", "start_timecode": "03:40", "end_timecode": "03:48", "duration": 8,
+      "scene": "周五夜的机场候机区，玻璃外有停机坪灯光", "characters": ["许棠"], "shot": "中景，50mm镜头，中等景深，侧面机位",
+      "visual": "许棠坐在候机区窗边，行李箱立在脚侧，手机震动。", "motion": "她看见程野来电后接起电话，先没有说话。", "dialogue": "无对白；机场广播模糊经过。", "sound": "机场广播、行李轮声、电话震动。",
+      "first_frame_static_state": "许棠尚未接起电话，手机屏幕不可读，停机坪灯光从玻璃外照入。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周五夜的机场候机区，停机坪灯光透过玻璃照亮座椅、行李箱和许棠侧脸，空间真实而不空旷摆拍。角色：许棠（图中中央坐着的人），自然肤质、普通通勤装，行李箱在脚侧。镜头：中景，50mm镜头，中等景深，侧面固定机位，对焦在手机震动与许棠的脸。动作：许棠看见程野来电后接起电话，先没有说话；手机屏幕不可读，机场广播掠过。]"
+    },
+    {
+      "id": "S32", "start_timecode": "03:48", "end_timecode": "03:56", "duration": 8,
+      "scene": "办公室许棠的空工位前", "characters": ["程野"], "shot": "近景，65mm镜头，浅景深，侧面机位",
+      "visual": "程野站在空工位前，把电话贴近耳边，凉咖啡在前景。", "motion": "他听见机场环境声，目光落到桌上那杯咖啡。", "dialogue": "程野：“你在哪？”", "sound": "机场广播从电话中传出、办公室空调声。",
+      "first_frame_static_state": "程野刚接通电话，咖啡杯在前景，空椅在背景，手尚未压紧手机。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周五夜的广告公司空工位前，桌灯照亮凉掉的咖啡杯，背景空椅与办公室暗部清楚可见。角色：程野（图中右侧站着的人），自然肤质和疲惫但克制的表情。镜头：近景，65mm镜头，浅景深，侧面固定机位，对焦在程野和前景咖啡杯。动作：程野把电话贴近耳边，听见机场广播后看向咖啡杯，问“你在哪？”。]"
+    },
+    {
+      "id": "S33", "start_timecode": "03:56", "end_timecode": "04:04", "duration": 8,
+      "scene": "机场候机区窗边", "characters": ["许棠"], "shot": "近景，85mm镜头，浅景深，正侧方机位",
+      "visual": "许棠坐直，玻璃外一架飞机缓慢滑行，手机贴在耳边。", "motion": "她平静地对程野问“以后没有工作，你还会找我吗？”。", "dialogue": "许棠：“以后没有工作，你还会找我吗？”", "sound": "远处飞机低鸣、候机区广播。",
+      "first_frame_static_state": "许棠尚未开口，行李箱仍在脚侧，目光落向玻璃外而非镜头。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周五夜的机场候机区窗边，停机坪灯光和飞机滑行灯在玻璃上形成有来源的反射。角色：许棠（图中中央坐着的人），自然肤质、日常通勤装，行李箱在脚侧。镜头：近景，85mm镜头，浅景深，正侧方固定机位，对焦在许棠的眼睛。动作：许棠平静地对程野问“以后没有工作，你还会找我吗？”，目光始终落向玻璃外。]"
+    },
+    {
+      "id": "S34", "start_timecode": "04:04", "end_timecode": "04:12", "duration": 8,
+      "scene": "办公室空工位与待发送提案前", "characters": ["程野"], "shot": "中近景，55mm镜头，浅景深，程野肩后机位",
+      "visual": "程野看着电脑上处于定时等待状态的最终提案，手机仍在耳边。", "motion": "他张口又停住，手指无意识地按着咖啡杯盖。", "dialogue": "无对白；电话里的机场广播持续。", "sound": "机场广播、咖啡杯盖细响。",
+      "first_frame_static_state": "程野的手指只搭在杯盖上，屏幕只显模糊定时色块，他尚未回答。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周五夜的广告公司空工位前，定时等待的提案屏幕只显模糊色块，桌灯照亮凉咖啡与程野的手。角色：程野（图中右侧的人），自然肤质、略显疲惫的日常衬衫。镜头：中近景，55mm镜头，浅景深，程野肩后固定机位，对焦在他的手和停顿的侧脸。动作：程野张口又停住，手指无意识按着咖啡杯盖；电话里机场广播持续，无对白。]"
+    },
+    {
+      "id": "S35", "start_timecode": "04:12", "end_timecode": "04:20", "duration": 8,
+      "scene": "办公室空工位前", "characters": ["程野"], "shot": "近景，85mm镜头，浅景深，正面略偏侧机位",
+      "visual": "程野站在空椅与电脑之间，电话贴耳，眼神躲开屏幕。", "motion": "他沉默后对许棠说“先把这版发出去吧”。", "dialogue": "程野：“先把这版发出去吧。”", "sound": "办公室低鸣，电话另一端短暂静默。",
+      "first_frame_static_state": "程野尚未开口，肩膀僵住，视线停在桌面而非屏幕。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周五夜的广告公司空工位前，桌灯与屏幕微光照出程野脸上真实的明暗，背景空椅保持清晰。角色：程野（图中中央的人），自然肤质、疲惫且回避的表情。镜头：近景，85mm镜头，浅景深，正面略偏侧固定机位，对焦在程野的眼睛。动作：程野沉默后对许棠说“先把这版发出去吧”，说完把目光从屏幕上移开。]"
+    },
+    {
+      "id": "S36", "start_timecode": "04:20", "end_timecode": "04:28", "duration": 8,
+      "scene": "机场候机区，登机口方向的光带", "characters": ["许棠"], "shot": "近景，65mm镜头，浅景深，侧面机位",
+      "visual": "许棠听完后低头看手机，屏幕只显示模糊的定时等待色块。", "motion": "她轻声说“好”，结束通话、锁上手机，拖起行李走向登机口。", "dialogue": "许棠：“好。”", "sound": "电话挂断声、机场广播、行李轮声。",
+      "first_frame_static_state": "许棠的手指尚未触到手机侧键，屏幕内容不可读，神情平静而非崩溃。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周五夜的机场候机区，登机口方向的灯光映在座椅和地面上，手机内容不可读。角色：许棠（图中中央的人），自然肤质、克制而平静的表情，行李箱仍在脚侧。镜头：近景，65mm镜头，浅景深，侧面固定机位，对焦在许棠的手和侧脸。动作：许棠轻声说“好”，结束通话并锁上仍在定时等待的手机，随后拖起行李走向登机口；没有手动发送邮件。]"
+    },
+    {
+      "id": "S37", "start_timecode": "04:28", "end_timecode": "04:36", "duration": 8,
+      "scene": "办公室的程野电脑前", "story_time": "与S40并行：许棠航班实际离地的同一叙事时刻", "characters": ["程野"], "shot": "过肩近景，50mm镜头，浅景深，程野肩后机位",
+      "visual": "程野电脑在航班离地的同一时刻弹出定时邮件发送完成的模糊状态，提案最后页留下咖啡杯与桌灯的反光。", "motion": "他听见发送提示音后翻回最后一页，手停在先前被他改过的版式旁。", "dialogue": "无对白；发送提示音。", "sound": "电脑提示音、空调低鸣。",
+      "first_frame_static_state": "状态文字不可读，程野手刚移向鼠标，咖啡杯在前景没有移动。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周五夜的广告公司电脑前，桌灯照亮咖啡杯和键盘，屏幕仅见模糊的定时邮件发送完成色块与版式。角色：程野（图中前景背对镜头的人），肩膀保持自然紧绷。镜头：过肩近景，50mm镜头，浅景深，程野肩后固定机位，对焦在他的手与屏幕边缘。动作：航班离地的同一时刻，程野听见定时邮件发送提示音后翻回最后一页，手停在先前改过的版式旁；屏幕文字不可读。]"
+    },
+    {
+      "id": "S38", "start_timecode": "04:36", "end_timecode": "04:44", "duration": 8,
+      "scene": "办公室空工位前的程野", "story_time": "S37之后，航班已经离地", "characters": ["程野"], "shot": "近景，85mm镜头，浅景深，侧面机位",
+      "visual": "程野看着最后页色块与键盘旁的咖啡，把凉掉的咖啡推回许棠曾放下的位置。", "motion": "他终于抬起头，拨回许棠电话。", "dialogue": "无对白；拨号音开始。", "sound": "电话拨号音、低沉的办公室环境声。",
+      "first_frame_static_state": "程野目光仍在屏幕和咖啡之间，玻璃反光只呈现真实空间倒影，不出现超现实幻象。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：周五夜的广告公司空工位前，桌灯照亮咖啡杯，玻璃上只保留真实办公室倒影，屏幕文字不可读。角色：程野（图中中央的人），自然肤质和迟到的恍然表情。镜头：近景，85mm镜头，浅景深，侧面固定机位，对焦在程野从屏幕抬起的眼睛。动作：航班已经离地后，程野把凉掉的咖啡推回许棠曾放下的位置，终于抬头拨回她电话；拨号音开始。]"
+    },
+    {
+      "id": "S39", "start_timecode": "04:44", "end_timecode": "04:52", "duration": 8,
+      "scene": "夜间机舱内，飞机刚离地后的舷窗旁", "story_time": "S37之后：航班已离地，程野的拨号不会再被接起", "characters": ["许棠"], "shot": "中景，40mm镜头，大景深，侧后方机位",
+      "visual": "许棠已系好安全带坐在舷窗旁，手机屏幕朝下放在腿上，机舱随爬升有轻微震动。", "motion": "她没有翻看手机，只把手放到扶手上，听见程野的来电被静音错过。", "dialogue": "无对白；引擎声渐强。", "sound": "机舱安全带提示音、引擎低鸣。",
+      "first_frame_static_state": "许棠已经坐稳，手机屏幕朝下且不可读，舷窗外跑道灯光开始后移。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：夜间机舱内，飞机离地后的舷窗旁有机舱阅读灯和跑道灯光，座椅与安全带材质真实。角色：许棠（图中中央靠窗坐着的人），普通通勤外套和行李状态连续，手机屏幕朝下放在腿上。镜头：中景，40mm镜头，大景深，侧后方固定机位，对焦在许棠与舷窗。动作：航班已离地，许棠没有翻看手机，只把手放到扶手上，静音错过程野的来电；无对白。]"
+    },
+    {
+      "id": "S40", "start_timecode": "04:52", "end_timecode": "05:00", "duration": 8,
+      "scene": "起飞时的机舱舷窗旁，城市灯光刚开始远去", "story_time": "与S37并行：定时邮件发出、程野收到发送状态、航班起飞为同一叙事时刻", "characters": ["许棠"], "shot": "中近景，50mm镜头，浅景深，静止机位",
+      "visual": "许棠坐在舷窗旁，手机屏幕朝下放在腿上，飞机离开跑道，城市灯光开始向后滑去。", "motion": "她把手从手机上移开，转头望向窗外，飞机持续爬升。", "dialogue": "无对白；低沉引擎声。", "sound": "飞机引擎增强、机舱环境声。",
+      "first_frame_static_state": "许棠坐姿放松但未微笑，手机屏幕朝下且不可读，城市灯光刚在窗外后移。", "image": null, "generation_prompt": null, "production_status": "pending_C5_review",
+      "video_prompt": "[场景：起飞时的夜间机舱舷窗旁，城市灯光刚在窗外自然后移，机舱阅读灯只提供柔和有来源的光。角色：许棠（图中右侧靠窗坐着的人），自然肤质、普通通勤外套，手机屏幕朝下放在腿上。镜头：中近景，50mm镜头，浅景深，静止机位，对焦在许棠与舷窗边缘。动作：定时邮件发出、程野收到发送状态的同一时刻，飞机离开跑道，许棠把手从手机上移开并转头望向窗外；无对白。]"
+    }
+  ]
+}

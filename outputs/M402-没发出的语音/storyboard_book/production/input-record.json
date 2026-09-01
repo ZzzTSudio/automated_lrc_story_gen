@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "song_id": "M402",
+  "title": "没发出的语音",
+  "recorded_at": "2026-08-31",
+  "current_phase": "C.5_narrative_review_pending",
+  "source": {
+    "story_file": "M402-故事内容.md",
+    "absolute_path": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M402-没发出的语音\\M402-故事内容.md",
+    "sha256": "1C5FDE59ABC5DD73C604BC78B651F98D5CD438AC34538C2088A89A0897683ED4",
+    "extraction": {
+      "start_heading": "## 故事内容",
+      "end_boundary": "first independent [Verse] marker",
+      "result": "success",
+      "story_body": "顾言在旧城区经营一家修鞋铺，隔壁花店的老板娘宋妍是他高中同学。她离婚后常来修一双磨坏的白球鞋，两个人慢慢恢复了联系，却谁也没有问对方这些年过得怎样。宋妍准备带女儿去另一座城生活，顾言在打烊后录了一段语音，说自己从来没有把她当成普通朋友。录到最后，他听见店外女儿喊妈妈，便把语音存进草稿。搬家那天，宋妍送来一束没有根的向日葵，笑着说以后别再等她路过。顾言按住播放键很久，最后只回了一句：“路上小心。”"
+    }
+  },
+  "excluded_inputs": [
+    {"path": "歌词.txt", "reason": "本轮只以故事正文为原作依据，未读取"},
+    {"path": "没发出的语音v1.wav", "reason": "未试听，未声称与音频节拍对齐"},
+    {"path": "没发出的语音v2.wav", "reason": "未试听，未声称与音频节拍对齐"},
+    {"path": "没发出的语音v3.wav", "reason": "未试听，未声称与音频节拍对齐"},
+    {"path": "没发出的语音v4.wav", "reason": "未试听，未声称与音频节拍对齐"}
+  ],
+  "production_configuration": {
+    "target_duration_seconds": 300,
+    "aspect_ratio": "16:9",
+    "preferred_min_shot_seconds": 5,
+    "max_shot_seconds": 10,
+    "frame_size": null,
+    "visual_assets_allowed": false,
+    "reason": "剧情审查门尚未得到 pass_to_visual"
+  },
+  "skill_fingerprint": {
+    "root": "C:\\Users\\Administrator\\.codex\\skills\\ai-director-storyboard",
+    "SKILL.md_sha256": "9402862BF653419B8C4DDFA2C550D46B8FAA9EB34F9C938290FF2E5EFC6593D2",
+    "references/directing-workflow.md_sha256": "561C1FE69B409A2C17FEC3E9B86E669A9D9689430E5A945D05269096930CC90D",
+    "references/manifest-schema.md_sha256": "8CC9AFBD2A34854B18E82214F113132F55F113AA7C482C910E845F38F0FF56A6"
+  },
+  "integrity": {
+    "other_song_story_material_read": false,
+    "creative_content_generated_by_script": false,
+    "source_files_modified": false
+  }
+}

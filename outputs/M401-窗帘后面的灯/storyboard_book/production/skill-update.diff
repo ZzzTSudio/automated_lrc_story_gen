@@ -1,0 +1,166 @@
+--- before/SKILL.md
++++ after/SKILL.md
+@@ -33,6 +33,18 @@
+ - 屏幕、手机、邮件、字幕等精确文字默认交给后期；生成首帧时避免依赖模型绘制可读文本。
+ - 只有实际文件存在、非空、镜号齐全、时长正确且图片尺寸合格后，才能报告完成。
+ 
++## 最终提示词格式
++
++每镜交付一段可独立复制的中文视频提示词，全部镜头集中保存到 `video-prompts.txt`，按镜号排序，每个非空行对应一镜。镜号、时码和参考图片文件名放在分镜书中，不混入可复制提示词。固定使用：
++
++`[场景：地点、时间、可见环境与光线。角色：姓名（图中实际位置的人）、其他出镜角色。镜头：景别，焦段，景深，必要的机位或运镜。动作：接下来数秒内的一个主要动作、表情变化；对白写为某人对某人说“原话”。]`
++
++- 四个字段放在同一对半角方括号内，顺序固定，不换行、不拆成多个提示块，不额外输出一段需要手工拼接的动作或负面提示。
++- “角色”根据该镜首帧标注左侧、右侧、中央、前景或背景。单人镜头只写实际位置；无人镜头写“无出镜人物”；只露手或背影时如实标注。参考设定图位置与剧情首帧位置要区分，不凭示例虚构人物位置。
++- 必要的身份、服装、空间和物理稳定约束合入相应字段；对白合入“动作”，无对白就写“无对白”。精确屏幕文字、字幕和配乐剪辑说明另列为制作备注。
++- 示例中的人名、剧情、焦段和景深仅用于示范格式，必须按当前故事选择。
++- 内部首帧生图提示仍只描述动作发生前的静态画面，可保存为 `generation_prompt`；最终单段视频提示保存为 `video_prompt`。不能用首帧提示替代最终提示，也不能在首帧中提前完成整段动作。
++
+ ## 图片生成纪律
+ 
+ 当用户要求图片时，先声明正在使用 `imagegen` 技能并遵循其保存、引用和验收规则。
+@@ -49,6 +61,7 @@
+ storyboard_book/
+ |-- storyboard-book.md
+ |-- storyboard-manifest.json
++|-- video-prompts.txt             全部镜头的单段视频提示词
+ |-- storyboard-overview.jpg       可选
+ |-- characters/
+ |   |-- <character>-sheet.png
+@@ -66,6 +79,7 @@
+ 至少完成以下检查：
+ 
+ - 镜号连续、无重复、无缺图。
++- 最终提示词数量等于镜数，逐条为同一行的 `[场景：……。角色：……。镜头：……。动作：……。]`，与首帧人物位置、剧情和时长对应。
+ - 所有镜头时长之和等于目标片长；常规镜头落在项目选择的5—10秒区间，并满足目标模型的硬限制。
+ - 所有首帧画幅和尺寸一致，比例符合交付要求。
+ - 主角脸、发型、服装和关键道具在剧情中连续。
+@@ -77,7 +91,7 @@
+ 
+ ```powershell
+ py -3 scripts/validate_storyboard.py <manifest.json> --root <storyboard_book>
+-py -3 scripts/build_storyboard_book.py <manifest.json> --output <storyboard-book.md>
++py -3 scripts/build_storyboard_book.py <manifest.json> --output <storyboard-book.md> --prompts-output <video-prompts.txt>
+ ```
+ 
+ ## 最终汇报
+--- before/references/visual-pipeline.md
++++ after/references/visual-pipeline.md
+@@ -53,20 +53,17 @@
+ 
+ 对输入图逐张标注角色。配角合并参考图必须明确使用左侧或右侧人物。引用顺序在同一批次保持稳定。
+ 
+-## 5. 图生视频动作提示
++## 5. 最终单段视频提示
+ 
+-动作提示以首帧为前提，不重复完整场景描述。推荐结构：
++用户可复制的最终提示必须自成一段，按 `SKILL.md` 的四字段格式合并场景、人物位置、摄影和动作，不要求用户拼接分散的栏目：
+ 
+ ```text
+-<一个主要人物动作或摄影机动作>;
+-preserve character identity and outfit;
+-natural blinking and breathing;
+-realistic cloth and hair physics;
+-stable background geometry;
+-no face drift, no extra people, no camera teleportation.
++[场景：夜晚的大学实验室，冷白顶灯照着实验台。角色：林澄（图中左侧的人）、周屿（图中右侧的人）。镜头：双人中景，40mm镜头，大景深，固定机位。动作：周屿将实验记录本缓慢推向林澄，对她说“明天帮我看一遍，好吗”；林澄的手停在本子旁，两人保持首帧的身份、发型和服装，背景结构稳定。]
+ ```
+ 
+-一个镜头只能有一个主要运动。需要第二个叙事动作时拆镜。
++“场景”保留足够的环境和光线信息，使该段能单独使用。“角色”位置必须以当前首帧验收为准；只有设定而尚未生图时，标明分镜书中的位置是构图目标。一个镜头只承担一个主要叙事动作，台词不另起一段。没有人物或台词时明确写出。常规自然眨眼、呼吸和衣料运动不算新增叙事动作。
++
++保持 `visual`（静态首帧）、`motion`（后续动作）、`dialogue`（台词）的内部结构便于检查，但最终的 `video_prompt` 必须是一条合并完成的单段提示。内部 `generation_prompt` 用于生成图片，与 `video_prompt` 分开存储。
+ 
+ ## 6. 精确文字与界面
+ 
+--- before/references/manifest-schema.md
++++ after/references/manifest-schema.md
+@@ -8,6 +8,7 @@
+ {
+   "project": {
+     "title": "片名",
++    "final_prompt_format": "scene-character-camera-action-v1",
+     "total_duration_seconds": 360,
+     "preferred_min_shot_seconds": 5,
+     "max_shot_seconds": 10,
+@@ -35,7 +36,8 @@
+       "dialogue": "司仪：你是否愿意——",
+       "post_notes": "无文字合成",
+       "image": "frames/S01.png",
+-      "generation_prompt": "可选：完整首帧提示"
++      "generation_prompt": "可选：仅描述动作发生前静态画面的内部首帧提示",
++      "video_prompt": "[场景：婚礼厅，暖光照亮两人。角色：林晚（图中左侧的人）、顾沉舟（图中右侧的人）。镜头：双人中景，40mm镜头，大景深，固定机位。动作：顾沉舟将婚戒缓慢推入林晚指尖，对她说‘嫁给我吧’，林晚眼中含泪。]"
+     }
+   ]
+ }
+@@ -53,14 +55,16 @@
+ - `shots[].motion`：只写接下来数秒的主要动作或运镜。
+ - `shots[].image`：相对于分镜目录的路径；推荐PNG。
+ - `generation_prompt`：可选；需要完整复现提示词时保留。
++- `project.final_prompt_format`：新交付使用 `scene-character-camera-action-v1`。
++- `shots[].video_prompt`：使用上述格式时必填。一条中文单段提示，只有一对外层 `[]`，内部依次为 `场景：`、`角色：`、`镜头：`、`动作：`，无换行。人物位置与实际首帧一致，包含该镜完整对白。内部结构字段不能替代这个最终交付字段。
+ 
+ ## 生成Markdown
+ 
+ ```powershell
+-py -3 scripts/build_storyboard_book.py storyboard-manifest.json --output storyboard-book.md
++py -3 scripts/build_storyboard_book.py storyboard-manifest.json --output storyboard-book.md --prompts-output video-prompts.txt
+ ```
+ 
+-脚本会输出项目规格、统一约束、角色设定图，以及每镜准确时间码、景别、画面、运动、对白、后期备注和首帧图。可选保留完整首帧提示词。
++脚本会输出项目规格、统一约束、角色设定图，以及每镜准确时间码、景别、画面、运动、对白、后期备注和首帧图。每镜最终视频提示词以单段单独展示；内部首帧提示可折叠保留。`video-prompts.txt` 按镜号顺序集中输出全部提示词，每个非空行对应一镜，不加编号和说明。
+ 
+ Markdown图片路径沿用清单中的相对路径。把Markdown放在清单所在的分镜目录中，移动或压缩整个目录后仍可显示。
+ 
+--- before/scripts/build_storyboard_book.py
++++ after/scripts/build_storyboard_book.py
+@@ -53,14 +53,17 @@
+         lines.extend([
+             "## %s｜%s—%s｜%s秒" % (shot["id"], timecode(start), timecode(end), duration), "",
+             "- 场景：%s" % shot.get("scene", "未指定"),
+-            "- 出镜：%s" % ("、".join(people) if people else "无明确主角面部"),
++            "- 出镜：%s" % shot.get("character_placement", "、".join(people) if people else "无明确主角面部"),
+             "- 景别／镜头：%s" % shot.get("shot", "未指定"),
+             "- 首帧画面：%s" % shot.get("visual", ""),
+             "- 运动提示：%s" % shot.get("motion", ""),
+             "- 对白／声音：%s" % shot.get("dialogue", ""),
++            "- 声场／剪辑：%s" % shot.get("audio", ""),
+             "- 后期备注：%s" % shot.get("post_notes", ""), "",
+             "![%s 首帧](./%s)" % (shot["id"], image.lstrip("./")), ""
+         ])
++        if shot.get("video_prompt"):
++            lines.extend(["### 最终视频提示词（整段复制）", "", "```text", shot["video_prompt"], "```", ""])
+         if shot.get("generation_prompt"):
+             lines.extend(["<details><summary>首帧生成提示词</summary>", "", "```text", shot["generation_prompt"], "```", "", "</details>", ""])
+     if elapsed != total:
+@@ -72,9 +75,17 @@
+     parser = argparse.ArgumentParser(description=__doc__)
+     parser.add_argument("manifest", type=Path)
+     parser.add_argument("--output", required=True, type=Path)
++    parser.add_argument("--prompts-output", type=Path, help="Write one complete video prompt per non-empty line")
+     args = parser.parse_args()
+     data = load_manifest(args.manifest)
+     content = render(data)
++    if args.prompts_output:
++        prompts = [shot.get("video_prompt") for shot in data["shots"]]
++        if any(not isinstance(prompt, str) or not prompt.strip() or "\n" in prompt or "\r" in prompt for prompt in prompts):
++            raise ValueError("all shots need a non-empty single-line video_prompt for prompt export")
++        args.prompts_output.parent.mkdir(parents=True, exist_ok=True)
++        args.prompts_output.write_text("\n\n".join(prompts) + "\n", encoding="utf-8")
++        print("WROTE %s (%d prompts)" % (args.prompts_output, len(prompts)))
+     args.output.parent.mkdir(parents=True, exist_ok=True)
+     args.output.write_text(content, encoding="utf-8")
+     print("WROTE %s (%d shots)" % (args.output, len(data["shots"])))
+--- before/scripts/validate_storyboard.py
++++ after/scripts/validate_storyboard.py
+@@ -76,6 +76,10 @@
+             errors.append("shot id %s has no numeric suffix" % shot_id)
+         else:
+             numbers.append(int(match.group(1)))
++        if project.get("final_prompt_format") == "scene-character-camera-action-v1" or "video_prompt" in shot:
++            prompt = shot.get("video_prompt")
++            if not isinstance(prompt, str) or not re.fullmatch(r"\[场景：[^\[\]\r\n]+。角色：[^\[\]\r\n]+。镜头：[^\[\]\r\n]+。动作：[^\[\]\r\n]+。\]", prompt):
++                errors.append("%s video_prompt must be one bracketed line with scene, characters, camera, action in order" % shot_id)
+         duration = shot.get("duration")
+         if not isinstance(duration, (int, float)) or isinstance(duration, bool) or duration <= 0:
+             errors.append("%s has invalid duration" % shot_id)

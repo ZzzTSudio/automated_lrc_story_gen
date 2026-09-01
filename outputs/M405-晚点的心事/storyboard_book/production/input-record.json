@@ -1,0 +1,28 @@
+{
+  "song_id": "M405",
+  "title": "晚点的心事",
+  "source_path": "../../M405-故事内容.md",
+  "source_sha256": "7874C5156571DEE1806BBC3D4457C25F10A13E07F313DECF7019C60B6FD00736",
+  "source_extraction": {
+    "start_heading": "## 故事内容",
+    "end_boundary": "file_end",
+    "result": "unique_and_parsed"
+  },
+  "scope_isolation": "Only M405-故事内容.md was read for creative source material; no other song story, lyric, or storyboard was used.",
+  "batch_configuration": {
+    "total_duration_seconds": 300,
+    "aspect_ratio": "16:9",
+    "shot_duration_range_seconds": [5, 10],
+    "storyboard_stage": "A-B-C complete; awaiting independent C.5 narrative review",
+    "visual_asset_generation": "prohibited_before_pass_to_visual",
+    "archive_delivery": false
+  },
+  "skill_fingerprint": {
+    "entry": "C:\\Users\\Administrator\\.codex\\skills\\ai-director-storyboard\\SKILL.md",
+    "entry_sha256": "9402862BF653419B8C4DDFA2C550D46B8FAA9EB34F9C938290FF2E5EFC6593D2",
+    "directing_workflow_sha256": "561C1FE69B409A2C17FEC3E9B86E669A9D9689430E5A945D05269096930CC90D",
+    "manifest_schema_sha256": "8CC9AFBD2A34854B18E82214F113132F55F113AA7C482C910E845F38F0FF56A6"
+  },
+  "created_by": "M405 lead_4",
+  "created_at": "2026-08-31"
+}

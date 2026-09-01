@@ -1,0 +1,26 @@
+{
+  "song_id": "M407",
+  "title": "白色耳机线",
+  "source_path": "../M407-故事内容.md",
+  "source_sha256": "9F4EBB052AB6CF1F644CD925702E07465267A7C5FBFD46F44296EBECEB33DA93",
+  "source_extraction": {
+    "heading": "故事内容",
+    "boundary": "end_of_file",
+    "status": "parsed_unique"
+  },
+  "batch_scope": "M402-M410",
+  "current_song_scope": "M407 only",
+  "workflow_stage": "C_pending_narrative_review",
+  "locked_duration_seconds": 300,
+  "shot_duration_rule_seconds": "5-10",
+  "aspect_ratio": "16:9",
+  "creative_isolation": "Only M407-故事内容.md was read for narrative development. No other song story, lyric, character, dialogue, plot turn, or shot design was used.",
+  "skill": {
+    "entry": "C:/Users/Administrator/.codex/skills/ai-director-storyboard/SKILL.md",
+    "loaded_references": [
+      "references/directing-workflow.md",
+      "references/manifest-schema.md"
+    ]
+  },
+  "asset_generation": "not_started; prohibited until narrative-review.md has pass_to_visual"
+}

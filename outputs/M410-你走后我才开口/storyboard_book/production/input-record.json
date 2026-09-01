@@ -1,0 +1,17 @@
+{
+  "song_id": "M410",
+  "title": "你走后我才开口",
+  "source_path": "M410-故事内容.md",
+  "source_story_sha256": "46AEF815EA8B325FF24B59D01489508A03C1D5D45B49BB091B4843238553942B",
+  "story_extraction": {"start_heading": "## 故事内容", "end_boundary": "文件结尾", "status": "unique_and_parsed"},
+  "batch_configuration": {"target_duration_seconds": 300, "allowed_duration_range_seconds": [240,360], "aspect_ratio": "16:9", "shot_duration_range_seconds": [5,10], "stage_completed": ["A","B","C"], "current_gate": "C.5_narrative_review_pending", "visual_asset_generation_allowed": false, "delivery_policy": "no_zip"},
+  "skill_fingerprint": {
+    "entry_path": "C:\\Users\\Administrator\\.codex\\skills\\ai-director-storyboard\\SKILL.md",
+    "entry_sha256": "9402862BF653419B8C4DDFA2C550D46B8FAA9EB34F9C938290FF2E5EFC6593D2",
+    "directing_workflow_sha256": "561C1FE69B409A2C17FEC3E9B86E669A9D9689430E5A945D05269096930CC90D",
+    "manifest_schema_sha256": "8CC9AFBD2A34854B18E82214F113132F55F113AA7C482C910E845F38F0FF56A6",
+    "batch_norm_sha256": "41877DD37807D7FC3BB11F1ACAE994A1361FCC8A29871312FB367B67A6F61434"
+  },
+  "output_directory": "storyboard_book",
+  "created_scope": "textual_story_and_no_image_shot_draft_only"
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "song_id": "M403",
+  "title": "雨停在你站台",
+  "source_directory": "E:/Project/zzzt-aimm-project/aimusic/outputs/M403-雨停在你站台",
+  "source_file": "E:/Project/zzzt-aimm-project/aimusic/outputs/M403-雨停在你站台/M403-故事内容.md",
+  "source_sha256": "D0639C0682E01834BCD424F86530DE0FDD6920D6D0D12BD45AFFCB38FDE90336",
+  "source_metadata": {
+    "heading": "雨停在你站台",
+    "number": "M403",
+    "theme": "在反复相遇中藏着喜欢，却因一次提前离站错过表白",
+    "style": "流行"
+  },
+  "story_body_extraction": {
+    "start_marker": "## 故事内容",
+    "end_marker": "[Verse]",
+    "body_status": "unique_and_parseable",
+    "body_text": "公交司机沈川每天六点四十经过河东站，卖豆浆的许禾总在雨棚等车。她从不上车，只递热豆浆，感谢他曾替她捡伞。沈川记住她的口味和耳后小痣，却没问她为何等同一辆空车。暴雨清晨，许禾终于想上车，手里攥着电话号码，却因积水调头的沈川错过了河东站。她等到天亮才知他改了路线。后来沈川仍经过那里，车窗外只剩一把无人认领的透明伞。"
+  },
+  "batch_configuration": {
+    "target_duration_seconds": 300,
+    "aspect_ratio": "16:9",
+    "preferred_min_shot_seconds": 5,
+    "max_shot_seconds": 10,
+    "output_directory": "E:/Project/zzzt-aimm-project/aimusic/outputs/M403-雨停在你站台/storyboard_book",
+    "current_phase": "C_complete_pending_narrative_review",
+    "images_generated": false,
+    "archive_output": false
+  },
+  "skill_fingerprint": {
+    "active_skill_root": "C:/Users/Administrator/.codex/skills/ai-director-storyboard",
+    "skill_sha256": "9402862BF653419B8C4DDFA2C550D46B8FAA9EB34F9C938290FF2E5EFC6593D2",
+    "directing_workflow_sha256": "561C1FE69B409A2C17FEC3E9B86E669A9D9689430E5A945D05269096930CC90D",
+    "manifest_schema_sha256": "8CC9AFBD2A34854B18E82214F113132F55F113AA7C482C910E845F38F0FF56A6",
+    "batch_norm_path": "E:/Project/zzzt-aimm-project/aimusic/AI歌曲故事分镜批量制作规范.md",
+    "batch_norm_sha256": "41877DD37807D7FC3BB11F1ACAE994A1361FCC8A29871312FB367B67A6F61434"
+  },
+  "isolation_statement": "Only M403-故事内容.md was used as creative source material. No other song story, lyric, character, dialogue, plot, shot design, image, or output was read or reused.",
+  "created_scope": [
+    "A_input_check",
+    "B_story_expansion",
+    "C_no_image_shot_lock"
+  ],
+  "next_required_gate": "Independent narrative review by Reviewer 1; no visual-phase artifact may be created before pass_to_visual."
+}

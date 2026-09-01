@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "song_id": "M408",
+  "title": "楼梯转角的春天",
+  "recorded_at": "2026-08-31",
+  "current_phase": "C.5_narrative_review_pending",
+  "source": {
+    "story_file": "M408-故事内容.md",
+    "absolute_path": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M408-楼梯转角的春天\\M408-故事内容.md",
+    "sha256": "304E71DD3910AC568E402B6D8057DD636A2050375579F47BC9C3F4AD39175944",
+    "extraction": {
+      "start_heading": "## 故事内容",
+      "end_boundary": "file end",
+      "result": "success",
+      "story_body": "摄影师苏晚住在老公寓三楼，邻居花艺师陈叙每天在楼梯转角修枝。苏晚常借问花名，把拍坏的照片给他看。春天，陈叙摆出只开一夜的月见草，想等她下班时说自己会留在城里。那晚苏晚接到母亲病重的电话，连夜退租回南方。陈叙抱花盆敲了三次门，屋里无人回应。多年后旧楼翻修，苏晚回来取相机，发现墙角仍有褪色花粉。她弯腰触碰，却叫不出那朵花的名字。"
+    }
+  },
+  "excluded_inputs": [
+    {"path": "歌词.txt", "reason": "本轮只以故事正文为原作依据，未读取"}
+  ],
+  "production_configuration": {
+    "target_duration_seconds": 300,
+    "aspect_ratio": "16:9",
+    "preferred_min_shot_seconds": 5,
+    "max_shot_seconds": 10,
+    "frame_size": null,
+    "visual_assets_allowed": false,
+    "reason": "剧情审查门尚未得到 pass_to_visual"
+  },
+  "skill_fingerprint": {
+    "root": "C:\\Users\\Administrator\\.codex\\skills\\ai-director-storyboard",
+    "SKILL.md_sha256": "9402862BF653419B8C4DDFA2C550D46B8FAA9EB34F9C938290FF2E5EFC6593D2",
+    "references/directing-workflow.md_sha256": "561C1FE69B409A2C17FEC3E9B86E669A9D9689430E5A945D05269096930CC90D",
+    "references/manifest-schema.md_sha256": "8CC9AFBD2A34854B18E82214F113132F55F113AA7C482C910E845F38F0FF56A6"
+  },
+  "integrity": {
+    "other_song_story_material_read": false,
+    "creative_content_generated_by_script": false,
+    "source_files_modified": false
+  }
+}

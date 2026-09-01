@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI导演分镜师"
+  short_description: "将短剧脚本转为可生成、可剪辑、可验收的AI视频分镜书"
+  default_prompt: "Use $ai-director-storyboard to turn my script into a production-ready AI video storyboard book."
