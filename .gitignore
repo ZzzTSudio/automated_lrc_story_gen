@@ -1,0 +1,15 @@
+# Generated audio files are kept locally and excluded from Git commits.
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.aac
+*.ogg
+*.opus
+*.wma
+*.aif
+*.aiff
+*.ape
+*.alac
+*.mid
+*.midi

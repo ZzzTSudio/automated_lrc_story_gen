@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.1",
+  "batch_id": "m402-m410-20260831",
+  "status": "running",
+  "created_at": "2026-08-31T14:23:27.5077692+08:00",
+  "input_root": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs",
+  "skill": {
+    "root": "C:\\Users\\Administrator\\.codex\\skills\\ai-director-storyboard",
+    "skill_sha256": "9402862BF653419B8C4DDFA2C550D46B8FAA9EB34F9C938290FF2E5EFC6593D2",
+    "directing_workflow_sha256": "561C1FE69B409A2C17FEC3E9B86E669A9D9689430E5A945D05269096930CC90D",
+    "manifest_schema_sha256": "8CC9AFBD2A34854B18E82214F113132F55F113AA7C482C910E845F38F0FF56A6"
+  },
+  "standard": {
+    "path": "E:\\Project\\zzzt-aimm-project\\aimusic\\AI歌曲故事分镜批量制作规范.md",
+    "sha256": "41877DD37807D7FC3BB11F1ACAE994A1361FCC8A29871312FB367B67A6F61434"
+  },
+  "defaults": {
+    "target_duration_seconds": 300,
+    "aspect_ratio": "16:9",
+    "min_shot_seconds": 5,
+    "max_shot_seconds": 10,
+    "max_asset_attempts": 3,
+    "archive_output": false
+  },
+  "songs": [
+    {
+      "song_id": "M402",
+      "source_path": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M402-没发出的语音\\M402-故事内容.md",
+      "source_sha256": "1C5FDE59ABC5DD73C604BC78B651F98D5CD438AC34538C2088A89A0897683ED4",
+      "output_dir": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M402-没发出的语音\\storyboard_book",
+      "status": "needs_review",
+      "phase": "C.5 narrative review closed",
+      "lead_agent": "主导1",
+      "reviewer_agent": "审查3",
+      "review_round": 2,
+      "verdict": "revise_narrative",
+      "planned_shots": null,
+      "accepted_shots": 0,
+      "issues": [
+        "After two narrative review/revision loops, one P0 time-line conflict remains: reconcile \"moves next week\" with the consecutive-day/next-day move-out sequence before visual work."
+      ]
+    },
+    {
+      "song_id": "M403",
+      "source_path": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M403-雨停在你站台\\M403-故事内容.md",
+      "source_sha256": "D0639C0682E01834BCD424F86530DE0FDD6920D6D0D12BD45AFFCB38FDE90336",
+      "output_dir": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M403-雨停在你站台\\storyboard_book",
+      "status": "complete",
+      "phase": "I final acceptance",
+      "lead_agent": "主导2",
+      "reviewer_agent": "审查1",
+      "review_round": 2,
+      "verdict": "pass_to_visual",
+      "planned_shots": 40,
+      "accepted_shots": 40,
+      "issues": [
+        "S02 original candidate was 1672x940 and retained under attempts; accepted official S02 is a 1672x941 canvas-only normalization, documented in validation report."
+      ]
+    },
+    {
+      "song_id": "M404",
+      "source_path": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M404-借口留到周五\\M404-故事内容.md",
+      "source_sha256": "DF85DBC36FB34D0D37BF9D5E46DB6DAAC9A9AB24FA0E19F94E72E817AC61296F",
+      "output_dir": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M404-借口留到周五\\storyboard_book",
+      "status": "needs_review",
+      "phase": "C.5 narrative review closed",
+      "lead_agent": "主导3",
+      "reviewer_agent": "审查2",
+      "review_round": 2,
+      "verdict": "revise_narrative",
+      "planned_shots": null,
+      "accepted_shots": 0,
+      "issues": [
+        "After the maximum two narrative review/revision loops, M404 still needs a human decision or targeted manual correction: unify S37-S40 into one forward time sequence and remove the stale submission claim that the email was sent manually after the call."
+      ]
+    },
+    {
+      "song_id": "M405",
+      "source_path": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M405-晚点的心事\\M405-故事内容.md",
+      "source_sha256": "7874C5156571DEE1806BBC3D4457C25F10A13E07F313DECF7019C60B6FD00736",
+      "output_dir": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M405-晚点的心事\\storyboard_book",
+      "status": "running",
+      "phase": "D-I visual production",
+      "lead_agent": "主导4",
+      "reviewer_agent": "审查3",
+      "review_round": 2,
+      "verdict": "pass_to_visual",
+      "planned_shots": null,
+      "accepted_shots": 0,
+      "issues": []
+    },
+    {
+      "song_id": "M406",
+      "source_path": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M406-你看不见的烟火\\M406-故事内容.md",
+      "source_sha256": "D94F3E5012A0CB4A15BDAE994F9601050A9EFBC9D03A8BC5D880CAC3F7BCFF94",
+      "output_dir": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M406-你看不见的烟火\\storyboard_book",
+      "status": "running",
+      "phase": "D-I visual production",
+      "lead_agent": "主导5",
+      "reviewer_agent": "审查1",
+      "review_round": 2,
+      "verdict": "pass_to_visual",
+      "planned_shots": null,
+      "accepted_shots": 0,
+      "issues": []
+    },
+    {
+      "song_id": "M407",
+      "source_path": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M407-白色耳机线\\M407-故事内容.md",
+      "source_sha256": "9F4EBB052AB6CF1F644CD925702E07465267A7C5FBFD46F44296EBECEB33DA93",
+      "output_dir": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M407-白色耳机线\\storyboard_book",
+      "status": "needs_review",
+      "phase": "C.5 narrative review closed",
+      "lead_agent": "主导6",
+      "reviewer_agent": "审查2",
+      "review_round": 2,
+      "verdict": "revise_narrative",
+      "planned_shots": null,
+      "accepted_shots": 0,
+      "issues": [
+        "After two review/revision loops the canonical revision is not merged into the formal shots[] array. A human or targeted manual correction must create one authoritative production manifest before visual work."
+      ]
+    },
+    {
+      "song_id": "M408",
+      "source_path": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M408-楼梯转角的春天\\M408-故事内容.md",
+      "source_sha256": "304E71DD3910AC568E402B6D8057DD636A2050375579F47BC9C3F4AD39175944",
+      "output_dir": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M408-楼梯转角的春天\\storyboard_book",
+      "status": "running",
+      "phase": "D-I visual production",
+      "lead_agent": "主导1",
+      "reviewer_agent": "审查3",
+      "review_round": 2,
+      "verdict": "pass_to_visual",
+      "planned_shots": null,
+      "accepted_shots": 0,
+      "issues": []
+    },
+    {
+      "song_id": "M409",
+      "source_path": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M409-未命名的联系人\\M409-故事内容.md",
+      "source_sha256": "CCCFF7DC75EDE0E07C61B38379FB3B5FE64A504130844CF7E6F06D3C1C095554",
+      "output_dir": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M409-未命名的联系人\\storyboard_book",
+      "status": "needs_review",
+      "phase": "C.5 narrative review closed",
+      "lead_agent": "主导2",
+      "reviewer_agent": "审查1",
+      "review_round": 2,
+      "verdict": "revise_narrative",
+      "planned_shots": null,
+      "accepted_shots": 0,
+      "issues": [
+        "After two review/revision loops, the airport climax still has inconsistent beat timing, contradictory broadcast specificity, and duplicated naming action. A human or targeted manual correction is required before visual work."
+      ]
+    },
+    {
+      "song_id": "M410",
+      "source_path": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M410-你走后我才开口\\M410-故事内容.md",
+      "source_sha256": "46AEF815EA8B325FF24B59D01489508A03C1D5D45B49BB091B4843238553942B",
+      "output_dir": "E:\\Project\\zzzt-aimm-project\\aimusic\\outputs\\M410-你走后我才开口\\storyboard_book",
+      "status": "running",
+      "phase": "D-I visual production",
+      "lead_agent": "主导3",
+      "reviewer_agent": "审查2",
+      "review_round": 2,
+      "verdict": "pass_to_visual",
+      "planned_shots": null,
+      "accepted_shots": 0,
+      "issues": []
+    }
+  ]
+}
